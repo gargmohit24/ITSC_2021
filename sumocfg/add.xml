@@ -75,4 +75,6 @@
 	<vTypeDistribution id="PKW" vTypes="HDC CAV2 CAV4"/>
 	<vTypeDistribution id="LKW" vTypes="HDT CAT2 CAT4"/>
 
+
+
 </additional>
