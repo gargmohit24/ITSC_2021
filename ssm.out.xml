@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Thu Apr 15 17:26:00 2021 by Eclipse SUMO sumo Version 1.8.0
+<!-- generated on Thu Apr 15 18:20:34 2021 by Eclipse SUMO sumo Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -9,12 +9,12 @@
     </input>
 
     <output>
-        <tripinfo-output value="/home/mohit/simulation/mpr_0/results/tripinfo.out.xml"/>
+        <tripinfo-output value="/home/mohit/simulation/mpr_0.2/results/tripinfo.out.xml"/>
     </output>
 
     <time>
-        <begin value="24300"/>
-        <end value="27900"/>
+        <begin value="25000"/>
+        <end value="27200"/>
         <step-length value="0.5"/>
     </time>
 
@@ -31,7 +31,7 @@
         <device.ssm.trajectories value="false"/>
         <device.ssm.range value="20"/>
         <device.ssm.extratime value="0.5"/>
-        <device.ssm.file value="/home/mohit/simulation/mpr_0/results/ssm.out.xml"/>
+        <device.ssm.file value="/home/mohit/simulation/mpr_0.2/results/ssm.out.xml"/>
         <device.ssm.geo value="true"/>
     </ssm_device>
 
@@ -43,4 +43,2192 @@
 -->
 
 <SSMLog>
+    <conflict begin="25085.00" end="25091.00" ego="NRA_000000001070_Eastbound-2.2268" foe="NRA_000000001070_Eastbound-3.2208">
+        <minTTC time="25087.00" position="-6.372016,53.317597" type="2" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25085.00" end="25091.00" ego="NRA_000000001070_Eastbound-3.2208" foe="NRA_000000001070_Eastbound-2.2268">
+        <minTTC time="25087.00" position="-6.372016,53.317597" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25091.00" end="25098.50" ego="NRA_000000020047_Eastbound-3.1854" foe="NRA_000000020047_Eastbound-2.1588">
+        <minTTC time="25093.00" position="-6.390103,53.356289" type="3" value="1.37"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25091.00" end="25099.50" ego="NRA_000000020047_Eastbound-2.1588" foe="NRA_000000020047_Eastbound-3.1854">
+        <minTTC time="25093.00" position="-6.390103,53.356289" type="2" value="1.37"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25095.00" end="25102.00" ego="NRA_000000001509_Northbound-2.1536" foe="NRA_000000001509_Northbound-2.1537">
+        <minTTC time="25097.00" position="-6.366645,53.315835" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25095.00" end="25102.00" ego="NRA_000000001509_Northbound-2.1537" foe="NRA_000000001509_Northbound-2.1536">
+        <minTTC time="25097.00" position="-6.366645,53.315835" type="2" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25079.00" end="25140.00" ego="NRA_000000020047_Eastbound-1.2588" foe="NRA_000000020047_Eastbound-1.2592">
+        <minTTC time="25096.50" position="-6.390293,53.356319" type="2" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25079.00" end="25140.00" ego="NRA_000000020047_Eastbound-1.2592" foe="NRA_000000020047_Eastbound-1.2588">
+        <minTTC time="25096.50" position="-6.390293,53.356319" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25094.50" end="25193.50" ego="NRA_000000020047_Eastbound-2.1595" foe="NRA_000000020047_Eastbound-2.1600">
+        <minTTC time="25137.00" position="-6.391407,53.356150" type="3" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25094.50" end="25193.50" ego="NRA_000000020047_Eastbound-2.1600" foe="NRA_000000020047_Eastbound-2.1595">
+        <minTTC time="25137.00" position="-6.391407,53.356150" type="2" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25267.00" end="25287.50" ego="NRA_000000020047_Eastbound-1.2638" foe="NRA_000000020047_Eastbound-1.2672">
+        <minTTC time="25282.00" position="-6.389787,53.356398" type="2" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25267.00" end="25287.50" ego="NRA_000000020047_Eastbound-1.2672" foe="NRA_000000020047_Eastbound-1.2638">
+        <minTTC time="25282.00" position="-6.389787,53.356398" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25268.00" end="25289.50" ego="NRA_000000020047_Eastbound-1.2638" foe="NRA_000000020047_Eastbound-2.1654">
+        <minTTC time="25283.50" position="-6.389872,53.356384" type="3" value="0.64"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25268.00" end="25289.50" ego="NRA_000000020047_Eastbound-2.1654" foe="NRA_000000020047_Eastbound-1.2638">
+        <minTTC time="25283.50" position="-6.389872,53.356384" type="2" value="0.64"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25311.50" end="25317.00" ego="NRA_000000001070_Eastbound-4.1326" foe="NRA_000000001070_Eastbound-2.2318">
+        <minTTC time="25312.50" position="-6.373963,53.324555" type="3" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25308.00" end="25320.00" ego="N4-W2.1677" foe="N4-W1.1356">
+        <minTTC time="25308.00" position="-6.384093,53.357817" type="3" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25308.00" end="25320.00" ego="N4-W1.1356" foe="N4-W2.1677">
+        <minTTC time="25308.00" position="-6.384093,53.357817" type="2" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25311.50" end="25317.00" ego="NRA_000000001070_Eastbound-2.2318" foe="NRA_000000001070_Eastbound-4.1326">
+        <minTTC time="25312.50" position="-6.373963,53.324555" type="2" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25284.00" end="25324.00" ego="NRA_000000001508_Southbound-2.945" foe="NRA_000000001508_Southbound-3.1682">
+        <minTTC time="25297.00" position="-6.383139,53.359626" type="2" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25284.00" end="25324.00" ego="NRA_000000001508_Southbound-3.1682" foe="NRA_000000001508_Southbound-2.945">
+        <minTTC time="25297.00" position="-6.383139,53.359626" type="3" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25188.50" end="25324.00" ego="NRA_000000020047_Eastbound-3.1925" foe="NRA_000000020047_Eastbound-1.2653">
+        <minTTC time="25305.00" position="-6.392178,53.356050" type="3" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25188.50" end="25324.00" ego="NRA_000000020047_Eastbound-1.2653" foe="NRA_000000020047_Eastbound-3.1925">
+        <minTTC time="25305.00" position="-6.392178,53.356050" type="2" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25309.50" end="25324.50" ego="N4-W3.317" foe="N4-W2.1678">
+        <minTTC time="25311.50" position="-6.384167,53.357523" type="2" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25309.00" end="25324.50" ego="N4-W2.1678" foe="N4-W3.317">
+        <minTTC time="25311.50" position="-6.384167,53.357523" type="3" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25302.00" end="25334.00" ego="NRA_000000001508_Southbound-3.1698" foe="NRA_000000001508_Southbound-4.2637">
+        <minTTC time="25324.00" position="-6.383322,53.359338" type="3" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25302.00" end="25334.50" ego="NRA_000000001508_Southbound-4.2637" foe="NRA_000000001508_Southbound-3.1698">
+        <minTTC time="25324.00" position="-6.383322,53.359338" type="2" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25269.00" end="25345.50" ego="NRA_000000001508_Southbound-3.1684" foe="NRA_000000001508_Southbound-3.1687">
+        <minTTC time="25320.00" position="-6.383178,53.359330" type="3" value="0.96"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25269.00" end="25345.50" ego="NRA_000000001508_Southbound-3.1687" foe="NRA_000000001508_Southbound-3.1684">
+        <minTTC time="25320.00" position="-6.383178,53.359330" type="2" value="0.96"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25348.50" end="25360.50" ego="NRA_000000001070_Eastbound-2.2363" foe="NRA_000000001070_Eastbound-3.2325">
+        <minTTC time="25350.00" position="-6.376825,53.316410" type="3" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25348.50" end="25360.50" ego="NRA_000000001070_Eastbound-3.2325" foe="NRA_000000001070_Eastbound-2.2363">
+        <minTTC time="25350.00" position="-6.376825,53.316410" type="2" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25353.50" end="25361.50" ego="NRA_000000001508_Southbound-4.2650" foe="NRA_000000001508_Southbound-3.1716">
+        <minTTC time="25357.50" position="-6.383298,53.359420" type="2" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25353.50" end="25361.50" ego="NRA_000000001508_Southbound-3.1716" foe="NRA_000000001508_Southbound-4.2650">
+        <minTTC time="25357.50" position="-6.383298,53.359420" type="3" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25369.00" end="25375.50" ego="NRA_000000001509_Northbound-3.702" foe="NRA_000000001509_Northbound-off-slip-1.792">
+        <minTTC time="25371.00" position="-6.366303,53.315596" type="2" value="0.96"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25369.00" end="25377.00" ego="NRA_000000001509_Northbound-off-slip-1.792" foe="NRA_000000001509_Northbound-3.702">
+        <minTTC time="25371.00" position="-6.366303,53.315596" type="3" value="0.96"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25331.00" end="25451.00" ego="NRA_000000001070_Eastbound-3.2346" foe="NRA_000000001070_Eastbound-4.1392">
+        <minTTC time="25416.00" position="-6.378035,53.316128" type="2" value="1.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25331.00" end="25451.00" ego="NRA_000000001070_Eastbound-4.1392" foe="NRA_000000001070_Eastbound-3.2346">
+        <minTTC time="25416.00" position="-6.378035,53.316128" type="3" value="1.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25467.50" end="25471.50" ego="NRA_000000001070_Eastbound-4.1326" foe="NRA_000000001070_Eastbound-3.2270">
+        <minTTC time="25468.00" position="-6.385342,53.352573" type="2" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25467.50" end="25473.00" ego="NRA_000000001070_Eastbound-3.2270" foe="NRA_000000001070_Eastbound-4.1326">
+        <minTTC time="25468.00" position="-6.385342,53.352573" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25464.50" end="25480.00" ego="N7-W2.1683" foe="N7-W2.1686">
+        <minTTC time="25469.50" position="-6.364976,53.319025" type="3" value="1.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25466.00" end="25480.00" ego="N7-W2.1686" foe="N7-W2.1683">
+        <minTTC time="25469.50" position="-6.364976,53.319025" type="2" value="1.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25503.00" end="25522.50" ego="N7-W3.1667" foe="N7-W3.1670">
+        <minTTC time="25513.00" position="-6.364673,53.314749" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25511.00" end="25522.50" ego="N7-W3.1670" foe="N7-W3.1667">
+        <minTTC time="25513.00" position="-6.364673,53.314749" type="2" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25498.00" end="25523.00" ego="NRA_000000001508_Southbound-1.2350" foe="NRA_000000001508_Southbound-3.1803">
+        <minTTC time="25503.50" position="-6.383143,53.359940" type="3" value="1.04"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25498.00" end="25523.00" ego="NRA_000000001508_Southbound-3.1803" foe="NRA_000000001508_Southbound-1.2350">
+        <minTTC time="25503.50" position="-6.383143,53.359940" type="2" value="1.04"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25500.50" end="25524.50" ego="NRA_000000001508_Southbound-1.2350" foe="NRA_000000001508_Southbound-1.2346">
+        <minTTC time="25506.50" position="-6.383177,53.359829" type="2" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25441.00" end="25524.50" ego="NRA_000000001070_Eastbound-2.2420" foe="NRA_000000001070_Eastbound-4.1426">
+        <minTTC time="25515.50" position="-6.377838,53.316202" type="3" value="1.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25441.00" end="25524.50" ego="NRA_000000001070_Eastbound-4.1426" foe="NRA_000000001070_Eastbound-2.2420">
+        <minTTC time="25515.50" position="-6.377838,53.316202" type="2" value="1.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25461.50" end="25526.50" ego="NRA_000000020047_Eastbound-1.2766" foe="NRA_000000020047_Eastbound-2.1720">
+        <minTTC time="25473.50" position="-6.387274,53.356354" type="2" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25500.50" end="25524.50" ego="NRA_000000001508_Southbound-1.2346" foe="NRA_000000001508_Southbound-1.2350">
+        <minTTC time="25506.50" position="-6.383177,53.359829" type="3" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25461.50" end="25526.50" ego="NRA_000000020047_Eastbound-2.1720" foe="NRA_000000020047_Eastbound-1.2766">
+        <minTTC time="25473.50" position="-6.387274,53.356354" type="3" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25356.50" end="25555.00" ego="NRA_000000020047_Eastbound-1.2724" foe="NRA_000000020047_Eastbound-1.2728">
+        <minTTC time="25500.00" position="-6.394017,53.355865" type="3" value="1.12"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25356.50" end="25555.00" ego="NRA_000000020047_Eastbound-1.2728" foe="NRA_000000020047_Eastbound-1.2724">
+        <minTTC time="25500.00" position="-6.394017,53.355865" type="2" value="1.12"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25487.00" end="25566.50" ego="NRA_000000020047_Eastbound-3.2050" foe="NRA_000000020047_Eastbound-1.2773">
+        <minTTC time="25498.00" position="-6.394248,53.355820" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25487.00" end="25566.50" ego="NRA_000000020047_Eastbound-1.2773" foe="NRA_000000020047_Eastbound-3.2050">
+        <minTTC time="25498.00" position="-6.394248,53.355820" type="2" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25518.50" end="25567.00" ego="NRA_000000020047_Eastbound-2.1750" foe="NRA_000000020047_Eastbound-2.1742">
+        <minTTC time="25518.50" position="-6.395143,53.355787" type="2" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25518.50" end="25567.00" ego="NRA_000000020047_Eastbound-2.1742" foe="NRA_000000020047_Eastbound-2.1750">
+        <minTTC time="25518.50" position="-6.395143,53.355787" type="3" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25571.50" end="25588.00" ego="NRA_000000001508_Southbound-1.2364" foe="NRA_000000001508_Southbound-3.1824">
+        <minTTC time="25583.00" position="-6.382970,53.360513" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25571.50" end="25589.50" ego="NRA_000000001508_Southbound-3.1824" foe="NRA_000000001508_Southbound-1.2364">
+        <minTTC time="25583.00" position="-6.382970,53.360513" type="2" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25517.00" end="25627.50" ego="NRA_000000001070_Eastbound-3.2416" foe="NRA_000000001070_Eastbound-3.2415">
+        <minTTC time="25596.00" position="-6.377906,53.316187" type="2" value="0.70"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25603.50" end="25630.50" ego="NRA_000000001508_Southbound-4.2752" foe="NRA_000000001508_Southbound-3.1845">
+        <minTTC time="25613.50" position="-6.383206,53.359236" type="2" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25517.00" end="25631.00" ego="NRA_000000001070_Eastbound-3.2415" foe="NRA_000000001070_Eastbound-3.2416">
+        <minTTC time="25596.00" position="-6.377906,53.316187" type="3" value="0.70"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25603.50" end="25632.00" ego="NRA_000000001508_Southbound-3.1845" foe="NRA_000000001508_Southbound-4.2752">
+        <minTTC time="25613.50" position="-6.383206,53.359236" type="3" value="1.46"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25551.50" end="25634.50" ego="NRA_000000001070_Eastbound-2.2459" foe="NRA_000000001070_Eastbound-4.1470">
+        <minTTC time="25598.50" position="-6.377623,53.316203" type="2" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25551.50" end="25634.50" ego="NRA_000000001070_Eastbound-4.1470" foe="NRA_000000001070_Eastbound-2.2459">
+        <minTTC time="25598.50" position="-6.377623,53.316203" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25632.50" end="25647.50" ego="NRA_000000001508_Southbound-2.1047" foe="NRA_000000001508_Southbound-3.1867">
+        <minTTC time="25633.00" position="-6.383175,53.359836" type="3" value="1.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25631.50" end="25649.00" ego="NRA_000000001508_Southbound-4.2763" foe="NRA_000000001508_Southbound-3.1867">
+        <minTTC time="25633.50" position="-6.383157,53.359893" type="3" value="0.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25625.00" end="25672.00" ego="NRA_000000001508_Southbound-4.2767" foe="NRA_000000001508_Southbound-4.2761">
+        <minTTC time="25638.50" position="-6.383088,53.360126" type="3" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25631.50" end="25649.00" ego="NRA_000000001508_Southbound-3.1867" foe="NRA_000000001508_Southbound-4.2763">
+        <minTTC time="25633.50" position="-6.383157,53.359893" type="2" value="0.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25625.00" end="25672.00" ego="NRA_000000001508_Southbound-4.2761" foe="NRA_000000001508_Southbound-4.2767">
+        <minTTC time="25638.50" position="-6.383088,53.360126" type="2" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25642.50" end="25678.50" ego="NRA_000000001509_Northbound-1.1139" foe="NRA_000000001509_Northbound-1.1140">
+        <minTTC time="25670.50" position="-6.366561,53.315764" type="3" value="0.37"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25642.50" end="25678.50" ego="NRA_000000001509_Northbound-1.1140" foe="NRA_000000001509_Northbound-1.1139">
+        <minTTC time="25670.50" position="-6.366561,53.315764" type="2" value="0.37"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25422.00" end="25679.00" ego="NRA_000000020047_Eastbound-3.2036" foe="NRA_000000020047_Eastbound-Bus-Lane.75">
+        <minTTC time="25673.50" position="-6.384146,53.355831" type="2" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25422.00" end="25679.00" ego="NRA_000000020047_Eastbound-Bus-Lane.75" foe="NRA_000000020047_Eastbound-3.2036">
+        <minTTC time="25673.50" position="-6.384146,53.355831" type="3" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25466.00" end="25685.50" ego="NRA_000000001070_Eastbound-2.2441" foe="NRA_000000001070_Eastbound-3.2410">
+        <minTTC time="25607.00" position="-6.378966,53.315933" type="2" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25466.00" end="25685.50" ego="NRA_000000001070_Eastbound-3.2410" foe="NRA_000000001070_Eastbound-2.2441">
+        <minTTC time="25607.00" position="-6.378966,53.315933" type="3" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25684.00" end="25690.50" ego="NRA_000000020047_Eastbound-2.1802" foe="NRA_000000020047_Eastbound-1.2874">
+        <minTTC time="25685.00" position="-6.389604,53.356260" type="2" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25682.00" end="25693.00" ego="NRA_000000001508_Southbound-1.2418" foe="NRA_000000001508_Southbound-3.1906">
+        <minTTC time="25683.50" position="-6.382563,53.361883" type="2" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25399.50" end="25693.00" ego="NRA_000000020047_Eastbound-2.1714" foe="NRA_000000020047_Eastbound-1.2754">
+        <minTTC time="25510.50" position="-6.395271,53.355816" type="2" value="1.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25686.00" end="25698.50" ego="N7-W3.1716" foe="N7-W2.1725">
+        <minTTC time="25692.50" position="-6.364194,53.314224" type="2" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25686.00" end="25698.50" ego="N7-W2.1725" foe="N7-W3.1716">
+        <minTTC time="25692.50" position="-6.364194,53.314224" type="3" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25610.50" end="25700.00" ego="NRA_000000001508_Southbound-1.2384" foe="NRA_000000001508_Southbound-1.2382">
+        <minTTC time="25625.50" position="-6.383134,53.359479" type="3" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25610.50" end="25700.00" ego="NRA_000000001508_Southbound-1.2382" foe="NRA_000000001508_Southbound-1.2384">
+        <minTTC time="25625.50" position="-6.383134,53.359479" type="2" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25686.50" end="25698.00" ego="NRA_000000001508_Southbound-3.1894" foe="NRA_000000001508_Southbound-1.2418">
+        <minTTC time="25689.50" position="-6.382642,53.361600" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25682.00" end="25693.00" ego="NRA_000000001508_Southbound-3.1906" foe="NRA_000000001508_Southbound-1.2418">
+        <minTTC time="25683.50" position="-6.382563,53.361883" type="3" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25632.50" end="25647.50" ego="NRA_000000001508_Southbound-3.1867" foe="NRA_000000001508_Southbound-2.1047">
+        <minTTC time="25633.00" position="-6.383175,53.359836" type="2" value="1.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25654.50" end="25724.50" ego="NRA_000000001070_Eastbound-3.2483" foe="NRA_000000001070_Eastbound-4.1501">
+        <minTTC time="25693.50" position="-6.379139,53.315863" type="3" value="1.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25700.00" end="25719.50" ego="NRA_000000001070_Eastbound-3.2483" foe="NRA_000000001070_Eastbound-2.2501">
+        <minTTC time="25701.50" position="-6.378978,53.315869" type="3" value="1.27"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25654.50" end="25724.50" ego="NRA_000000001070_Eastbound-4.1501" foe="NRA_000000001070_Eastbound-3.2483">
+        <minTTC time="25693.50" position="-6.379139,53.315863" type="2" value="1.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25399.50" end="25693.50" ego="NRA_000000020047_Eastbound-1.2754" foe="NRA_000000020047_Eastbound-2.1714">
+        <minTTC time="25510.50" position="-6.395271,53.355816" type="3" value="1.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25700.00" end="25719.50" ego="NRA_000000001070_Eastbound-2.2501" foe="NRA_000000001070_Eastbound-3.2483">
+        <minTTC time="25701.50" position="-6.378978,53.315869" type="2" value="1.27"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25687.50" end="25722.50" ego="NRA_000000001508_Southbound-3.1804" foe="NRA_000000001508_Southbound-1.2418">
+        <minTTC time="25696.50" position="-6.382670,53.361501" type="3" value="0.73"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25427.00" end="25740.50" ego="NRA_000000020047_Eastbound-1.2780" foe="NRA_000000020047_Eastbound-3.2057">
+        <minTTC time="25711.00" position="-6.392081,53.356061" type="2" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25427.00" end="25743.00" ego="NRA_000000020047_Eastbound-3.2057" foe="NRA_000000020047_Eastbound-1.2780">
+        <minTTC time="25711.00" position="-6.392081,53.356061" type="3" value="0.93"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25704.50" end="25752.50" ego="NRA_000000001508_Southbound-1.2430" foe="NRA_000000001508_Southbound-2.1063">
+        <minTTC time="25733.50" position="-6.382525,53.362016" type="3" value="0.75"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25704.50" end="25752.50" ego="NRA_000000001508_Southbound-2.1063" foe="NRA_000000001508_Southbound-1.2430">
+        <minTTC time="25733.50" position="-6.382525,53.362016" type="2" value="0.75"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25699.00" end="25763.00" ego="NRA_000000020047_Eastbound-2.1771" foe="NRA_000000020047_Eastbound-1.2821">
+        <minTTC time="25706.00" position="-6.390827,53.356206" type="2" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25699.00" end="25763.00" ego="NRA_000000020047_Eastbound-1.2821" foe="NRA_000000020047_Eastbound-2.1771">
+        <minTTC time="25706.00" position="-6.390827,53.356206" type="3" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25555.00" end="25768.50" ego="NRA_000000001070_Eastbound-4.1475" foe="NRA_000000001070_Eastbound-2.2467">
+        <minTTC time="25704.50" position="-6.378999,53.315925" type="2" value="1.04"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25555.00" end="25770.50" ego="NRA_000000001070_Eastbound-2.2467" foe="NRA_000000001070_Eastbound-4.1475">
+        <minTTC time="25704.50" position="-6.378999,53.315925" type="3" value="1.04"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25764.00" end="25775.50" ego="NRA_000000001508_Southbound-2.1063" foe="NRA_000000001508_Southbound-1.2430">
+        <minTTC time="25766.50" position="-6.383325,53.359330" type="2" value="0.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25764.00" end="25774.00" ego="NRA_000000001508_Southbound-1.2430" foe="NRA_000000001508_Southbound-2.1063">
+        <minTTC time="25766.50" position="-6.383325,53.359330" type="3" value="0.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25755.00" end="25778.00" ego="NRA_000000001070_Eastbound-2.2486" foe="NRA_000000001070_Eastbound-2.2523">
+        <minTTC time="25756.00" position="-6.381791,53.315258" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25755.00" end="25778.00" ego="NRA_000000001070_Eastbound-2.2523" foe="NRA_000000001070_Eastbound-2.2486">
+        <minTTC time="25756.00" position="-6.381791,53.315258" type="2" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25684.00" end="25690.50" ego="NRA_000000020047_Eastbound-1.2874" foe="NRA_000000020047_Eastbound-2.1802">
+        <minTTC time="25685.00" position="-6.389604,53.356260" type="3" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25782.50" end="25799.50" ego="NRA_000000001070_Eastbound-3.2547" foe="NRA_000000001070_Eastbound-4.1562">
+        <minTTC time="25783.00" position="-6.384019,53.314750" type="3" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25581.50" end="25800.00" ego="NRA_000000001070_Eastbound-4.1490" foe="NRA_000000001070_Eastbound-4.1491">
+        <minTTC time="25730.50" position="-6.380018,53.315693" type="3" value="0.82"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25581.50" end="25800.00" ego="NRA_000000001070_Eastbound-4.1491" foe="NRA_000000001070_Eastbound-4.1490">
+        <minTTC time="25730.50" position="-6.380018,53.315693" type="2" value="0.82"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25434.00" end="25800.50" ego="NRA_000000020047_Eastbound-2.1733" foe="NRA_000000020047_Eastbound-1.2777">
+        <minTTC time="25723.50" position="-6.392263,53.356041" type="2" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25434.00" end="25800.50" ego="NRA_000000020047_Eastbound-1.2777" foe="NRA_000000020047_Eastbound-2.1733">
+        <minTTC time="25723.50" position="-6.392263,53.356041" type="3" value="1.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25782.50" end="25799.50" ego="NRA_000000001070_Eastbound-4.1562" foe="NRA_000000001070_Eastbound-3.2547">
+        <minTTC time="25783.00" position="-6.384019,53.314750" type="2" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25790.00" end="25802.00" ego="NRA_000000001070_Eastbound-1.221" foe="NRA_000000001070_Eastbound-2.2538">
+        <minTTC time="25796.50" position="-6.377096,53.316319" type="3" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25790.00" end="25802.00" ego="NRA_000000001070_Eastbound-2.2538" foe="NRA_000000001070_Eastbound-1.221">
+        <minTTC time="25796.50" position="-6.377096,53.316319" type="2" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25686.50" end="25698.00" ego="NRA_000000001508_Southbound-1.2418" foe="NRA_000000001508_Southbound-3.1894">
+        <minTTC time="25689.50" position="-6.382642,53.361600" type="2" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25687.50" end="25722.50" ego="NRA_000000001508_Southbound-1.2418" foe="NRA_000000001508_Southbound-3.1804">
+        <minTTC time="25696.50" position="-6.382670,53.361501" type="2" value="0.73"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25597.50" end="25824.50" ego="NRA_000000001070_Eastbound-2.2493" foe="NRA_000000001070_Eastbound-4.1497">
+        <minTTC time="25808.50" position="-6.377734,53.316210" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25597.50" end="25824.50" ego="NRA_000000001070_Eastbound-4.1497" foe="NRA_000000001070_Eastbound-2.2493">
+        <minTTC time="25808.50" position="-6.377734,53.316210" type="2" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25589.50" end="25846.50" ego="NRA_000000001070_Eastbound-3.2466" foe="NRA_000000001070_Eastbound-4.1494">
+        <minTTC time="25763.00" position="-6.380214,53.315648" type="3" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25589.50" end="25846.50" ego="NRA_000000001070_Eastbound-4.1494" foe="NRA_000000001070_Eastbound-3.2466">
+        <minTTC time="25763.00" position="-6.380214,53.315648" type="2" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25731.50" end="25851.00" ego="NRA_000000020047_Eastbound-3.2088" foe="NRA_000000020047_Eastbound-3.2182">
+        <minTTC time="25818.50" position="-6.391733,53.356105" type="2" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25731.50" end="25851.00" ego="NRA_000000020047_Eastbound-3.2182" foe="NRA_000000020047_Eastbound-3.2088">
+        <minTTC time="25818.50" position="-6.391733,53.356105" type="3" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25803.00" end="25853.50" ego="NRA_000000001070_Eastbound-4.1500" foe="NRA_000000001070_Eastbound-1.220">
+        <minTTC time="25830.50" position="-6.378298,53.316070" type="3" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25803.00" end="25853.50" ego="NRA_000000001070_Eastbound-1.220" foe="NRA_000000001070_Eastbound-4.1500">
+        <minTTC time="25830.50" position="-6.378298,53.316070" type="2" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25803.00" end="25864.50" ego="NRA_000000001070_Eastbound-4.1507" foe="NRA_000000001070_Eastbound-4.1535">
+        <minTTC time="25856.00" position="-6.377831,53.316173" type="3" value="1.10"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25823.00" end="25871.00" ego="NRA_000000001070_Eastbound-3.2544" foe="NRA_000000001070_Eastbound-4.1562">
+        <minTTC time="25823.50" position="-6.378252,53.316049" type="3" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25823.00" end="25871.00" ego="NRA_000000001070_Eastbound-4.1562" foe="NRA_000000001070_Eastbound-3.2544">
+        <minTTC time="25823.50" position="-6.378252,53.316049" type="2" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25803.00" end="25864.50" ego="NRA_000000001070_Eastbound-4.1535" foe="NRA_000000001070_Eastbound-4.1507">
+        <minTTC time="25856.00" position="-6.377831,53.316173" type="2" value="1.10"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25834.50" end="25897.50" ego="NRA_000000020047_Eastbound-1.2935" foe="NRA_000000020047_Eastbound-2.1829">
+        <minTTC time="25839.00" position="-6.395777,53.355790" type="2" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25861.50" end="25897.50" ego="NRA_000000001070_Eastbound-3.2559" foe="NRA_000000001070_Eastbound-4.1565">
+        <minTTC time="25861.50" position="-6.377797,53.316150" type="2" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25861.50" end="25897.50" ego="NRA_000000001070_Eastbound-4.1565" foe="NRA_000000001070_Eastbound-3.2559">
+        <minTTC time="25861.50" position="-6.377797,53.316150" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25843.50" end="25898.50" ego="NRA_000000001070_Eastbound-3.2557" foe="NRA_000000001070_Eastbound-3.2560">
+        <minTTC time="25891.50" position="-6.376899,53.316363" type="2" value="0.96"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25884.50" end="25898.00" ego="NRA_000000001508_Southbound-2.1117" foe="NRA_000000001508_Southbound-3.1962">
+        <minTTC time="25884.50" position="-6.383265,53.359366" type="2" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25891.00" end="25900.00" ego="NRA_000000001509_Northbound-3.820" foe="NRA_000000001509_Northbound-off-slip-1.876">
+        <minTTC time="25895.50" position="-6.385266,53.352741" type="3" value="0.66"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25891.00" end="25900.00" ego="NRA_000000001509_Northbound-off-slip-1.876" foe="NRA_000000001509_Northbound-3.820">
+        <minTTC time="25895.50" position="-6.385266,53.352741" type="2" value="0.66"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25894.50" end="25903.50" ego="NRA_000000001509_Northbound-2.1734" foe="NRA_000000001509_Northbound-2.1732">
+        <minTTC time="25895.50" position="-6.385219,53.352734" type="3" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25894.50" end="25905.50" ego="NRA_000000001509_Northbound-2.1732" foe="NRA_000000001509_Northbound-2.1734">
+        <minTTC time="25895.50" position="-6.385219,53.352734" type="2" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25884.50" end="25899.00" ego="NRA_000000001508_Southbound-3.1962" foe="NRA_000000001508_Southbound-2.1117">
+        <minTTC time="25884.50" position="-6.383265,53.359366" type="3" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25843.50" end="25919.00" ego="NRA_000000001070_Eastbound-3.2560" foe="NRA_000000001070_Eastbound-3.2557">
+        <minTTC time="25891.50" position="-6.376899,53.316363" type="3" value="0.96"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25891.50" end="25962.00" ego="NRA_000000001070_Eastbound-3.2506" foe="NRA_000000001070_Eastbound-4.1529">
+        <minTTC time="25942.00" position="-6.373610,53.324237" type="2" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25891.50" end="25962.00" ego="NRA_000000001070_Eastbound-4.1529" foe="NRA_000000001070_Eastbound-3.2506">
+        <minTTC time="25942.00" position="-6.373610,53.324237" type="3" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25768.00" end="25981.00" ego="NRA_000000001508_Southbound-1.2466" foe="NRA_000000001508_Southbound-2.1127">
+        <minTTC time="25903.00" position="-6.382842,53.360612" type="3" value="1.29"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25768.00" end="25981.50" ego="NRA_000000001508_Southbound-2.1127" foe="NRA_000000001508_Southbound-1.2466">
+        <minTTC time="25903.00" position="-6.382842,53.360612" type="2" value="1.29"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25901.50" end="25981.50" ego="N7-W3.1785" foe="N7-W3.1789">
+        <minTTC time="25915.50" position="-6.365001,53.319050" type="3" value="0.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25901.50" end="25988.00" ego="N7-W3.1789" foe="N7-W3.1785">
+        <minTTC time="25915.50" position="-6.365001,53.319050" type="2" value="0.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25811.00" end="25995.00" ego="NRA_000000001508_Southbound-3.1983" foe="NRA_000000001508_Southbound-3.1990">
+        <minTTC time="25911.50" position="-6.382740,53.360937" type="2" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25811.00" end="25995.00" ego="NRA_000000001508_Southbound-3.1990" foe="NRA_000000001508_Southbound-3.1983">
+        <minTTC time="25911.50" position="-6.382740,53.360937" type="3" value="1.02"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25834.50" end="25897.50" ego="NRA_000000020047_Eastbound-2.1829" foe="NRA_000000020047_Eastbound-1.2935">
+        <minTTC time="25839.00" position="-6.395777,53.355790" type="3" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26008.50" end="26016.00" ego="NRA_000000001508_Southbound-3.1983" foe="NRA_000000001508_Southbound-3.1990">
+        <minTTC time="26012.00" position="-6.383448,53.358353" type="2" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26008.50" end="26017.50" ego="NRA_000000001508_Southbound-3.1990" foe="NRA_000000001508_Southbound-3.1983">
+        <minTTC time="26012.00" position="-6.383448,53.358353" type="3" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26009.50" end="26021.50" ego="N7-W3.1814" foe="N7-W2.1819">
+        <minTTC time="26009.50" position="-6.364864,53.319064" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26010.00" end="26021.50" ego="N7-W2.1819" foe="N7-W3.1814">
+        <minTTC time="26010.00" position="-6.364869,53.319062" type="2" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26010.00" end="26023.50" ego="N7-W2.1819" foe="N7-W2.1821">
+        <minTTC time="26011.50" position="-6.364698,53.319125" type="3" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26010.00" end="26023.50" ego="N7-W2.1821" foe="N7-W2.1819">
+        <minTTC time="26011.50" position="-6.364698,53.319125" type="2" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25578.00" end="26026.00" ego="NRA_000000020047_Eastbound-1.2852" foe="NRA_000000020047_Eastbound-2.1785">
+        <minTTC time="25786.00" position="-6.396169,53.355801" type="2" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25578.00" end="26027.00" ego="NRA_000000020047_Eastbound-2.1785" foe="NRA_000000020047_Eastbound-1.2852">
+        <minTTC time="25786.00" position="-6.396169,53.355801" type="3" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25558.50" end="26053.50" ego="NRA_000000001508_Southbound-1.2389" foe="NRA_000000001508_Southbound-4.2765">
+        <minTTC time="25646.50" position="-6.381647,53.364964" type="2" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25558.50" end="26053.50" ego="NRA_000000001508_Southbound-4.2765" foe="NRA_000000001508_Southbound-1.2389">
+        <minTTC time="25646.50" position="-6.381647,53.364964" type="3" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25637.50" end="26057.00" ego="NRA_000000020047_Eastbound-2.1800" foe="NRA_000000020047_Eastbound-1.2868">
+        <minTTC time="26050.50" position="-6.390732,53.356251" type="2" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25637.50" end="26057.00" ego="NRA_000000020047_Eastbound-1.2868" foe="NRA_000000020047_Eastbound-2.1800">
+        <minTTC time="26050.50" position="-6.390732,53.356251" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25618.50" end="26061.50" ego="NRA_000000001508_Southbound-1.2389" foe="NRA_000000001508_Southbound-3.1863">
+        <minTTC time="25648.50" position="-6.381629,53.365018" type="3" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25618.50" end="26061.50" ego="NRA_000000001508_Southbound-3.1863" foe="NRA_000000001508_Southbound-1.2389">
+        <minTTC time="25648.50" position="-6.381629,53.365018" type="2" value="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26022.00" end="26061.50" ego="NRA_000000001508_Southbound-3.1954" foe="NRA_000000020047_Eastbound-1.2906">
+        <minTTC time="26041.00" position="-6.375346,53.326379" type="2" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26022.00" end="26061.50" ego="NRA_000000020047_Eastbound-1.2906" foe="NRA_000000001508_Southbound-3.1954">
+        <minTTC time="26041.00" position="-6.375346,53.326379" type="3" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26055.50" end="26067.00" ego="N7-W3.1816" foe="N7-W2.1821">
+        <minTTC time="26056.00" position="-6.364153,53.314239" type="3" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26055.50" end="26067.00" ego="N7-W2.1821" foe="N7-W3.1816">
+        <minTTC time="26056.00" position="-6.364153,53.314239" type="2" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26052.00" end="26074.50" ego="NRA_000000001070_Eastbound-2.2630" foe="NRA_000000001070_Eastbound-2.2633">
+        <minTTC time="26065.00" position="-6.377935,53.316119" type="3" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26052.00" end="26074.50" ego="NRA_000000001070_Eastbound-2.2633" foe="NRA_000000001070_Eastbound-2.2630">
+        <minTTC time="26065.00" position="-6.377935,53.316119" type="2" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26044.50" end="26066.50" ego="NRA_000000020047_Eastbound-1.3027" foe="NRA_000000020047_Eastbound-1.2977">
+        <minTTC time="26052.00" position="-6.391013,53.356177" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26084.00" end="26094.00" ego="NRA_000000001070_Eastbound-4.1572" foe="NRA_000000001070_Eastbound-4.1571">
+        <minTTC time="26086.00" position="-6.373768,53.324431" type="2" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26084.00" end="26094.00" ego="NRA_000000001070_Eastbound-4.1571" foe="NRA_000000001070_Eastbound-4.1572">
+        <minTTC time="26086.00" position="-6.373768,53.324431" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26058.00" end="26104.00" ego="NRA_000000001070_Eastbound-2.2633" foe="NRA_000000001070_Eastbound-4.1600">
+        <minTTC time="26082.50" position="-6.377858,53.316167" type="2" value="0.84"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26058.00" end="26104.00" ego="NRA_000000001070_Eastbound-4.1600" foe="NRA_000000001070_Eastbound-2.2633">
+        <minTTC time="26082.50" position="-6.377858,53.316167" type="3" value="0.84"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26044.50" end="26066.50" ego="NRA_000000020047_Eastbound-1.2977" foe="NRA_000000020047_Eastbound-1.3027">
+        <minTTC time="26052.00" position="-6.391013,53.356177" type="2" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26101.00" end="26114.50" ego="NRA_000000001508_Southbound-3.1945" foe="N4-W2.1801">
+        <minTTC time="26106.50" position="-6.369385,53.320764" type="2" value="0.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26101.00" end="26114.00" ego="N4-W2.1801" foe="NRA_000000001508_Southbound-3.1945">
+        <minTTC time="26106.50" position="-6.369385,53.320764" type="3" value="0.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25648.50" end="26117.50" ego="NRA_000000020047_Eastbound-2.1804" foe="NRA_000000020047_Eastbound-1.2891">
+        <minTTC time="26064.50" position="-6.391148,53.356186" type="3" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25648.50" end="26117.50" ego="NRA_000000020047_Eastbound-1.2891" foe="NRA_000000020047_Eastbound-2.1804">
+        <minTTC time="26064.50" position="-6.391148,53.356186" type="2" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26097.00" end="26116.00" ego="NRA_000000001508_Southbound-4.2948" foe="NRA_000000001508_Southbound-3.2098">
+        <minTTC time="26100.00" position="-6.383206,53.359567" type="3" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25590.00" end="26123.50" ego="NRA_000000001508_Southbound-3.1856" foe="NRA_000000001508_Southbound-4.2765">
+        <minTTC time="25644.00" position="-6.381665,53.364911" type="3" value="1.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25590.00" end="26123.50" ego="NRA_000000001508_Southbound-4.2765" foe="NRA_000000001508_Southbound-3.1856">
+        <minTTC time="25644.00" position="-6.381665,53.364911" type="2" value="1.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26097.00" end="26116.00" ego="NRA_000000001508_Southbound-3.2098" foe="NRA_000000001508_Southbound-4.2948">
+        <minTTC time="26100.00" position="-6.383206,53.359567" type="2" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25883.00" end="26128.50" ego="NRA_000000001508_Southbound-1.2495" foe="NRA_000000001508_Southbound-3.2036">
+        <minTTC time="26003.00" position="-6.382067,53.363304" type="2" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25883.00" end="26128.50" ego="NRA_000000001508_Southbound-3.2036" foe="NRA_000000001508_Southbound-1.2495">
+        <minTTC time="26003.00" position="-6.382067,53.363304" type="3" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26061.00" end="26134.50" ego="NRA_000000020047_Eastbound-1.3041" foe="NRA_000000020047_Eastbound-1.3052">
+        <minTTC time="26070.50" position="-6.402357,53.356887" type="3" value="0.71"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26061.00" end="26133.00" ego="NRA_000000020047_Eastbound-1.3052" foe="NRA_000000020047_Eastbound-1.3041">
+        <minTTC time="26070.50" position="-6.402357,53.356887" type="2" value="0.71"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25779.50" end="26155.00" ego="NRA_000000020047_Eastbound-3.2238" foe="NRA_000000020047_Eastbound-3.2232">
+        <minTTC time="25845.00" position="-6.388923,53.356324" type="2" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25779.50" end="26157.00" ego="NRA_000000020047_Eastbound-3.2232" foe="NRA_000000020047_Eastbound-3.2238">
+        <minTTC time="25845.00" position="-6.388923,53.356324" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26177.50" end="26184.50" ego="NRA_000000001509_Northbound-2.1881" foe="NRA_000000001509_Northbound-3.993">
+        <minTTC time="26180.50" position="-6.366648,53.315837" type="3" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26177.50" end="26184.50" ego="NRA_000000001509_Northbound-3.993" foe="NRA_000000001509_Northbound-2.1881">
+        <minTTC time="26180.50" position="-6.366648,53.315837" type="2" value="1.39"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26181.50" end="26187.50" ego="NRA_000000001509_Northbound-3.993" foe="NRA_000000001509_Northbound-3.994">
+        <minTTC time="26182.50" position="-6.366643,53.315833" type="3" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26151.50" end="26187.00" ego="NRA_000000001070_Eastbound-4.1681" foe="NRA_000000001070_Eastbound-2.2686">
+        <minTTC time="26170.50" position="-6.384429,53.314688" type="3" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26181.50" end="26187.50" ego="NRA_000000001509_Northbound-3.994" foe="NRA_000000001509_Northbound-3.993">
+        <minTTC time="26182.50" position="-6.366643,53.315833" type="2" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26068.00" end="26191.00" ego="NRA_000000020047_Eastbound-3.2214" foe="NRA_000000020047_Eastbound-3.2223">
+        <minTTC time="26071.50" position="-6.377405,53.328350" type="2" value="1.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26068.00" end="26191.00" ego="NRA_000000020047_Eastbound-3.2223" foe="NRA_000000020047_Eastbound-3.2214">
+        <minTTC time="26071.50" position="-6.377405,53.328350" type="3" value="1.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26068.50" end="26191.50" ego="NRA_000000020047_Eastbound-3.2223" foe="NRA_000000020047_Eastbound-1.2933">
+        <minTTC time="26103.00" position="-6.376785,53.327727" type="2" value="1.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25924.00" end="26192.00" ego="NRA_000000001508_Southbound-4.2915" foe="NRA_000000001508_Southbound-4.2918">
+        <minTTC time="26013.00" position="-6.381767,53.364398" type="3" value="1.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25924.00" end="26192.00" ego="NRA_000000001508_Southbound-4.2918" foe="NRA_000000001508_Southbound-4.2915">
+        <minTTC time="26013.00" position="-6.381767,53.364398" type="2" value="1.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26183.00" end="26196.50" ego="NRA_000000001508_Southbound-2.1168" foe="NRA_000000020047_Eastbound-3.2223">
+        <minTTC time="26184.50" position="-6.375212,53.326139" type="2" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26183.00" end="26191.50" ego="NRA_000000020047_Eastbound-3.2223" foe="NRA_000000001508_Southbound-2.1168">
+        <minTTC time="26184.50" position="-6.375212,53.326139" type="3" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26068.50" end="26200.50" ego="NRA_000000020047_Eastbound-1.2933" foe="NRA_000000020047_Eastbound-3.2223">
+        <minTTC time="26103.00" position="-6.376785,53.327727" type="3" value="1.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25923.00" end="26203.00" ego="NRA_000000001508_Southbound-3.2060" foe="NRA_000000001508_Southbound-2.1175">
+        <minTTC time="25939.00" position="-6.376739,53.370351" type="2" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25923.00" end="26203.00" ego="NRA_000000001508_Southbound-2.1175" foe="NRA_000000001508_Southbound-3.2060">
+        <minTTC time="25939.00" position="-6.376739,53.370351" type="3" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26151.50" end="26187.00" ego="NRA_000000001070_Eastbound-2.2686" foe="NRA_000000001070_Eastbound-4.1681">
+        <minTTC time="26170.50" position="-6.384429,53.314688" type="2" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26165.00" end="26215.00" ego="NRA_000000020047_Eastbound-2.1938" foe="NRA_000000020047_Eastbound-3.2368">
+        <minTTC time="26171.50" position="-6.392820,53.355939" type="2" value="1.09"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25696.50" end="26218.00" ego="NRA_000000020047_Eastbound-3.2196" foe="NRA_000000020047_Eastbound-1.2913">
+        <minTTC time="25837.00" position="-6.399238,53.356195" type="2" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25696.50" end="26218.00" ego="NRA_000000020047_Eastbound-1.2913" foe="NRA_000000020047_Eastbound-3.2196">
+        <minTTC time="25837.00" position="-6.399238,53.356195" type="3" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25697.50" end="26229.00" ego="NRA_000000020047_Eastbound-3.2196" foe="NRA_000000020047_Eastbound-3.2197">
+        <minTTC time="26095.00" position="-6.393813,53.355879" type="3" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25697.50" end="26229.00" ego="NRA_000000020047_Eastbound-3.2197" foe="NRA_000000020047_Eastbound-3.2196">
+        <minTTC time="26095.00" position="-6.393813,53.355879" type="2" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26184.00" end="26242.50" ego="NRA_000000020047_Eastbound-1.3076" foe="NRA_000000020047_Eastbound-1.3069">
+        <minTTC time="26223.50" position="-6.393529,53.355873" type="2" value="0.98"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26247.50" end="26257.50" ego="NRA_000000001070_Eastbound-2.2631" foe="NRA_000000001070_Eastbound-2.2629">
+        <minTTC time="26248.00" position="-6.373727,53.324342" type="2" value="1.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26243.00" end="26258.00" ego="NRA_000000001070_Eastbound-2.2629" foe="NRA_000000001070_Eastbound-3.2613">
+        <minTTC time="26249.50" position="-6.373872,53.324473" type="2" value="1.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26247.50" end="26257.50" ego="NRA_000000001070_Eastbound-2.2629" foe="NRA_000000001070_Eastbound-2.2631">
+        <minTTC time="26248.00" position="-6.373727,53.324342" type="3" value="1.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26233.00" end="26254.00" ego="NRA_000000001070_Eastbound-2.2692" foe="NRA_000000001070_Eastbound-4.1681">
+        <minTTC time="26243.50" position="-6.378332,53.316037" type="3" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26243.00" end="26258.00" ego="NRA_000000001070_Eastbound-3.2613" foe="NRA_000000001070_Eastbound-2.2629">
+        <minTTC time="26249.50" position="-6.373872,53.324473" type="3" value="1.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26233.00" end="26259.50" ego="NRA_000000001509_Northbound-1.1244" foe="NRA_000000001509_Northbound-1.1246">
+        <minTTC time="26255.00" position="-6.366648,53.315837" type="3" value="0.74"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26233.00" end="26259.50" ego="NRA_000000001509_Northbound-1.1246" foe="NRA_000000001509_Northbound-1.1244">
+        <minTTC time="26255.00" position="-6.366648,53.315837" type="2" value="0.74"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25917.00" end="26264.00" ego="NRA_000000020047_Eastbound-1.2992" foe="NRA_000000020047_Eastbound-1.2995">
+        <minTTC time="25932.00" position="-6.389705,53.356247" type="2" value="1.36"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25917.00" end="26264.00" ego="NRA_000000020047_Eastbound-1.2995" foe="NRA_000000020047_Eastbound-1.2992">
+        <minTTC time="25932.00" position="-6.389705,53.356247" type="3" value="1.36"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26165.00" end="26213.50" ego="NRA_000000020047_Eastbound-3.2368" foe="NRA_000000020047_Eastbound-2.1938">
+        <minTTC time="26171.50" position="-6.392820,53.355939" type="3" value="1.09"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26235.00" end="26254.00" ego="NRA_000000001070_Eastbound-4.1681" foe="NRA_000000001070_Eastbound-2.2692">
+        <minTTC time="26243.50" position="-6.378332,53.316037" type="2" value="1.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26262.50" end="26273.00" ego="N7-W2.1875" foe="N7-W2.1877">
+        <minTTC time="26263.00" position="-6.364153,53.314239" type="3" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26262.50" end="26273.00" ego="N7-W2.1877" foe="N7-W2.1875">
+        <minTTC time="26263.00" position="-6.364153,53.314239" type="2" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26245.00" end="26266.00" ego="NRA_000000020047_Eastbound-2.2006" foe="NRA_000000020047_Eastbound-1.3076">
+        <minTTC time="26249.00" position="-6.391840,53.356060" type="3" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26094.50" end="26285.00" ego="NRA_000000020047_Eastbound-2.1902" foe="NRA_000000020047_Eastbound-1.3008">
+        <minTTC time="26264.00" position="-6.394744,53.355794" type="2" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26113.00" end="26285.50" ego="NRA_000000001508_Southbound-3.2033" foe="N4-W1.1538">
+        <minTTC time="26279.50" position="-6.375269,53.326249" type="2" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26113.00" end="26285.50" ego="N4-W1.1538" foe="NRA_000000001508_Southbound-3.2033">
+        <minTTC time="26279.50" position="-6.375269,53.326249" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26216.50" end="26286.50" ego="NRA_000000001070_Eastbound-3.2691" foe="NRA_000000001070_Eastbound-2.2686">
+        <minTTC time="26277.00" position="-6.377053,53.316359" type="3" value="1.03"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26216.50" end="26286.50" ego="NRA_000000001070_Eastbound-2.2686" foe="NRA_000000001070_Eastbound-3.2691">
+        <minTTC time="26277.00" position="-6.377053,53.316359" type="2" value="1.03"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26184.00" end="26242.50" ego="NRA_000000020047_Eastbound-1.3069" foe="NRA_000000020047_Eastbound-1.3076">
+        <minTTC time="26223.50" position="-6.393529,53.355873" type="3" value="0.98"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26101.50" end="26306.50" ego="NRA_000000020047_Eastbound-3.2306" foe="NRA_000000020047_Eastbound-2.1903">
+        <minTTC time="26109.50" position="-6.394968,53.355790" type="2" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26244.00" end="26307.50" ego="NRA_000000020047_Eastbound-2.1880" foe="NRA_000000020047_Eastbound-1.3107">
+        <minTTC time="26251.50" position="-6.391406,53.356150" type="3" value="1.29"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26244.00" end="26307.50" ego="NRA_000000020047_Eastbound-1.3107" foe="NRA_000000020047_Eastbound-2.1880">
+        <minTTC time="26251.50" position="-6.391406,53.356150" type="2" value="1.29"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26274.50" end="26311.50" ego="NRA_000000001070_Eastbound-4.1723" foe="NRA_000000001070_Eastbound-4.1717">
+        <minTTC time="26279.50" position="-6.379229,53.315842" type="2" value="0.65"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26301.00" end="26312.00" ego="N4-W2.1850" foe="NRA_000000001508_Southbound-1.2518">
+        <minTTC time="26303.00" position="-6.375335,53.326259" type="2" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26274.50" end="26311.50" ego="NRA_000000001070_Eastbound-4.1717" foe="NRA_000000001070_Eastbound-4.1723">
+        <minTTC time="26279.50" position="-6.379229,53.315842" type="3" value="0.65"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26245.00" end="26266.00" ego="NRA_000000020047_Eastbound-1.3076" foe="NRA_000000020047_Eastbound-2.2006">
+        <minTTC time="26249.00" position="-6.391840,53.356060" type="2" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26301.00" end="26312.00" ego="NRA_000000001508_Southbound-1.2518" foe="N4-W2.1850">
+        <minTTC time="26303.00" position="-6.375335,53.326259" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26285.50" end="26326.00" ego="NRA_000000020047_Eastbound-2.1902" foe="NRA_000000020047_Eastbound-2.2015">
+        <minTTC time="26291.50" position="-6.393680,53.355860" type="2" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25811.50" end="26328.50" ego="NRA_000000020047_Eastbound-3.2204" foe="NRA_000000020047_Eastbound-1.2929">
+        <minTTC time="26022.50" position="-6.398138,53.355977" type="3" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26171.00" end="26333.00" ego="NRA_000000020047_Eastbound-3.2196" foe="NRA_000000020047_Eastbound-2.1943">
+        <minTTC time="26272.00" position="-6.392231,53.356045" type="2" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26171.00" end="26333.00" ego="NRA_000000020047_Eastbound-2.1943" foe="NRA_000000020047_Eastbound-3.2196">
+        <minTTC time="26272.00" position="-6.392231,53.356045" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25811.50" end="26328.50" ego="NRA_000000020047_Eastbound-1.2929" foe="NRA_000000020047_Eastbound-3.2204">
+        <minTTC time="26022.50" position="-6.398138,53.355977" type="2" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26300.50" end="26334.00" ego="NRA_000000001509_Northbound-off-slip-2.611" foe="NRA_000000001509_Northbound-2.1924">
+        <minTTC time="26332.00" position="-6.366601,53.315847" type="2" value="0.53"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26300.50" end="26335.50" ego="NRA_000000001509_Northbound-2.1924" foe="NRA_000000001509_Northbound-off-slip-2.611">
+        <minTTC time="26332.00" position="-6.366601,53.315847" type="3" value="0.53"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26291.50" end="26345.50" ego="NRA_000000001508_Southbound-3.2137" foe="NRA_000000001508_Southbound-3.2127">
+        <minTTC time="26297.00" position="-6.383159,53.359888" type="2" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26296.00" end="26345.00" ego="NRA_000000001508_Southbound-3.2137" foe="NRA_000000001508_Southbound-1.2549">
+        <minTTC time="26302.00" position="-6.383134,53.359810" type="2" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26138.50" end="26356.50" ego="NRA_000000020047_Eastbound-1.3052" foe="NRA_000000020047_Eastbound-1.3047">
+        <minTTC time="26143.00" position="-6.395757,53.355790" type="2" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26285.50" end="26326.00" ego="NRA_000000020047_Eastbound-2.2015" foe="NRA_000000020047_Eastbound-2.1902">
+        <minTTC time="26291.50" position="-6.393680,53.355860" type="3" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26094.50" end="26285.00" ego="NRA_000000020047_Eastbound-1.3008" foe="NRA_000000020047_Eastbound-2.1902">
+        <minTTC time="26264.00" position="-6.394744,53.355794" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26287.00" end="26363.50" ego="NRA_000000001508_Southbound-3.2127" foe="NRA_000000001508_Southbound-2.1215">
+        <minTTC time="26296.50" position="-6.383174,53.359837" type="2" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26291.50" end="26345.50" ego="NRA_000000001508_Southbound-3.2127" foe="NRA_000000001508_Southbound-3.2137">
+        <minTTC time="26297.00" position="-6.383159,53.359888" type="3" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26138.50" end="26356.50" ego="NRA_000000020047_Eastbound-1.3047" foe="NRA_000000020047_Eastbound-1.3052">
+        <minTTC time="26143.00" position="-6.395757,53.355790" type="3" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26353.00" end="26365.50" ego="NRA_000000020047_Eastbound-3.2400" foe="N4-W2.1916">
+        <minTTC time="26356.50" position="-6.384856,53.352925" type="3" value="0.54"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26353.00" end="26365.50" ego="N4-W2.1916" foe="NRA_000000020047_Eastbound-3.2400">
+        <minTTC time="26356.50" position="-6.384856,53.352925" type="2" value="0.54"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26101.50" end="26306.50" ego="NRA_000000020047_Eastbound-2.1903" foe="NRA_000000020047_Eastbound-3.2306">
+        <minTTC time="26109.50" position="-6.394968,53.355790" type="3" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26287.00" end="26363.50" ego="NRA_000000001508_Southbound-2.1215" foe="NRA_000000001508_Southbound-3.2127">
+        <minTTC time="26296.50" position="-6.383174,53.359837" type="3" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26159.00" end="26373.50" ego="NRA_000000001508_Southbound-1.2574" foe="NRA_000000001508_Southbound-2.1241">
+        <minTTC time="26318.00" position="-6.383068,53.360193" type="3" value="0.87"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26159.00" end="26373.50" ego="NRA_000000001508_Southbound-2.1241" foe="NRA_000000001508_Southbound-1.2574">
+        <minTTC time="26318.00" position="-6.383068,53.360193" type="2" value="0.87"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26363.00" end="26373.50" ego="NRA_000000001070_Eastbound-3.2750" foe="NRA_000000001070_Eastbound-2.2752">
+        <minTTC time="26364.00" position="-6.385092,53.314536" type="2" value="0.82"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26186.00" end="26385.50" ego="NRA_000000001070_Eastbound-2.2707" foe="NRA_000000001070_Eastbound-4.1678">
+        <minTTC time="26260.50" position="-6.379906,53.315719" type="2" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26186.00" end="26387.50" ego="NRA_000000001070_Eastbound-4.1678" foe="NRA_000000001070_Eastbound-2.2707">
+        <minTTC time="26260.50" position="-6.379906,53.315719" type="3" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26296.00" end="26345.00" ego="NRA_000000001508_Southbound-1.2549" foe="NRA_000000001508_Southbound-3.2137">
+        <minTTC time="26302.00" position="-6.383134,53.359810" type="3" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26363.00" end="26373.50" ego="NRA_000000001070_Eastbound-2.2752" foe="NRA_000000001070_Eastbound-3.2750">
+        <minTTC time="26364.00" position="-6.385092,53.314536" type="3" value="0.82"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26155.50" end="26396.00" ego="NRA_000000001508_Southbound-4.3009" foe="NRA_000000001508_Southbound-4.3030">
+        <minTTC time="26388.00" position="-6.383020,53.360350" type="3" value="1.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26155.50" end="26396.00" ego="NRA_000000001508_Southbound-4.3030" foe="NRA_000000001508_Southbound-4.3009">
+        <minTTC time="26388.00" position="-6.383020,53.360350" type="2" value="1.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26388.00" end="26397.00" ego="NRA_000000020047_Eastbound-1.3040" foe="NRA_000000020047_Eastbound-3.2224">
+        <minTTC time="26391.00" position="-6.374632,53.325551" type="3" value="0.74"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26082.00" end="26399.00" ego="NRA_000000020047_Eastbound-2.1951" foe="NRA_000000020047_Eastbound-1.3077">
+        <minTTC time="26097.00" position="-6.389338,53.356285" type="2" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26082.00" end="26399.00" ego="NRA_000000020047_Eastbound-1.3077" foe="NRA_000000020047_Eastbound-2.1951">
+        <minTTC time="26097.00" position="-6.389338,53.356285" type="3" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26403.50" end="26411.50" ego="NRA_000000020047_Eastbound-1.3040" foe="NRA_000000020047_Eastbound-3.2224">
+        <minTTC time="26406.50" position="-6.373203,53.324250" type="3" value="0.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26113.00" end="26418.50" ego="NRA_000000001508_Southbound-4.3005" foe="NRA_000000001508_Southbound-1.2579">
+        <minTTC time="26151.00" position="-6.378242,53.369365" type="3" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26113.00" end="26419.50" ego="NRA_000000001508_Southbound-1.2579" foe="NRA_000000001508_Southbound-4.3005">
+        <minTTC time="26151.00" position="-6.378242,53.369365" type="2" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26388.00" end="26397.00" ego="NRA_000000020047_Eastbound-3.2224" foe="NRA_000000020047_Eastbound-1.3040">
+        <minTTC time="26391.00" position="-6.374632,53.325551" type="2" value="0.74"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26403.50" end="26411.50" ego="NRA_000000020047_Eastbound-3.2224" foe="NRA_000000020047_Eastbound-1.3040">
+        <minTTC time="26406.50" position="-6.373203,53.324250" type="2" value="0.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26404.50" end="26426.00" ego="NRA_000000001070_Eastbound-2.2629" foe="NRA_000000001070_Eastbound-2.2631">
+        <minTTC time="26419.00" position="-6.385391,53.352569" type="3" value="0.56"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26404.50" end="26427.00" ego="NRA_000000001070_Eastbound-2.2631" foe="NRA_000000001070_Eastbound-2.2629">
+        <minTTC time="26419.00" position="-6.385391,53.352569" type="2" value="0.56"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26418.00" end="26437.00" ego="NRA_000000001070_Eastbound-2.2761" foe="NRA_000000001070_Eastbound-3.2753">
+        <minTTC time="26429.00" position="-6.377371,53.316259" type="3" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26419.50" end="26437.00" ego="NRA_000000001070_Eastbound-3.2753" foe="NRA_000000001070_Eastbound-2.2761">
+        <minTTC time="26429.00" position="-6.377371,53.316259" type="2" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25824.00" end="26450.50" ego="NRA_000000020047_Eastbound-2.1848" foe="NRA_000000020047_Eastbound-1.2941">
+        <minTTC time="26106.50" position="-6.395118,53.355816" type="3" value="1.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25824.00" end="26450.50" ego="NRA_000000020047_Eastbound-1.2941" foe="NRA_000000020047_Eastbound-2.1848">
+        <minTTC time="26106.50" position="-6.395118,53.355816" type="2" value="1.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25868.00" end="26452.50" ego="NRA_000000020047_Eastbound-2.1881" foe="NRA_000000020047_Eastbound-1.2983">
+        <minTTC time="26127.00" position="-6.396580,53.355821" type="2" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25868.00" end="26453.00" ego="NRA_000000020047_Eastbound-1.2983" foe="NRA_000000020047_Eastbound-2.1881">
+        <minTTC time="26127.00" position="-6.396580,53.355821" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26158.50" end="26457.50" ego="NRA_000000020047_Eastbound-2.2001" foe="NRA_000000020047_Eastbound-1.3148">
+        <minTTC time="26384.50" position="-6.404034,53.357328" type="3" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26158.50" end="26457.50" ego="NRA_000000020047_Eastbound-1.3148" foe="NRA_000000020047_Eastbound-2.2001">
+        <minTTC time="26384.50" position="-6.404034,53.357328" type="2" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25794.00" end="26459.00" ego="NRA_000000001508_Southbound-1.2463" foe="NRA_000000001508_Southbound-2.1132">
+        <minTTC time="26194.50" position="-6.381982,53.363792" type="3" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25794.00" end="26459.00" ego="NRA_000000001508_Southbound-2.1132" foe="NRA_000000001508_Southbound-1.2463">
+        <minTTC time="26194.50" position="-6.381982,53.363792" type="2" value="1.43"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25770.50" end="26459.00" ego="NRA_000000020047_Eastbound-1.2946" foe="NRA_000000020047_Eastbound-1.2948">
+        <minTTC time="26120.50" position="-6.395418,53.355817" type="3" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25770.50" end="26459.00" ego="NRA_000000020047_Eastbound-1.2948" foe="NRA_000000020047_Eastbound-1.2946">
+        <minTTC time="26120.50" position="-6.395418,53.355817" type="2" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26452.00" end="26460.00" ego="NRA_000000001509_Northbound-3.1043" foe="NRA_000000001509_Northbound-off-slip-1.1030">
+        <minTTC time="26455.00" position="-6.385217,53.352743" type="3" value="0.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26452.00" end="26461.50" ego="NRA_000000001509_Northbound-off-slip-1.1030" foe="NRA_000000001509_Northbound-3.1043">
+        <minTTC time="26455.00" position="-6.385217,53.352743" type="2" value="0.26"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25874.50" end="26462.50" ego="NRA_000000020047_Eastbound-3.2265" foe="NRA_000000020047_Eastbound-2.1881">
+        <minTTC time="26455.50" position="-6.389886,53.356382" type="2" value="1.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25874.50" end="26462.50" ego="NRA_000000020047_Eastbound-2.1881" foe="NRA_000000020047_Eastbound-3.2265">
+        <minTTC time="26455.50" position="-6.389886,53.356382" type="3" value="1.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26265.00" end="26487.50" ego="NRA_000000020047_Eastbound-3.2232" foe="NRA_000000020047_Eastbound-1.3049">
+        <minTTC time="26452.00" position="-6.374728,53.325723" type="2" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26265.00" end="26487.50" ego="NRA_000000020047_Eastbound-1.3049" foe="NRA_000000020047_Eastbound-3.2232">
+        <minTTC time="26452.00" position="-6.374728,53.325723" type="3" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26430.50" end="26501.00" ego="NRA_000000001508_Southbound-4.2852" foe="NRA_000000001508_Southbound-3.2194">
+        <minTTC time="26492.50" position="-6.383128,53.359664" type="3" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26430.50" end="26501.00" ego="NRA_000000001508_Southbound-3.2194" foe="NRA_000000001508_Southbound-4.2852">
+        <minTTC time="26492.50" position="-6.383128,53.359664" type="2" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26300.00" end="26516.50" ego="NRA_000000020047_Eastbound-3.2324" foe="N4-W3.401">
+        <minTTC time="26508.00" position="-6.375029,53.326016" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26300.00" end="26516.50" ego="N4-W3.401" foe="NRA_000000020047_Eastbound-3.2324">
+        <minTTC time="26508.00" position="-6.375029,53.326016" type="2" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26469.00" end="26542.00" ego="NRA_000000020047_Eastbound-3.2355" foe="NRA_000000020047_Eastbound-1.3115">
+        <minTTC time="26493.00" position="-6.393514,53.355874" type="3" value="1.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26469.00" end="26542.00" ego="NRA_000000020047_Eastbound-1.3115" foe="NRA_000000020047_Eastbound-3.2355">
+        <minTTC time="26493.00" position="-6.393514,53.355874" type="2" value="1.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26526.50" end="26537.50" ego="NRA_000000001508_Southbound-2.1133" foe="NRA_000000001508_Southbound-2.1132">
+        <minTTC time="26530.50" position="-6.383164,53.359542" type="3" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26526.50" end="26537.50" ego="NRA_000000001508_Southbound-2.1132" foe="NRA_000000001508_Southbound-2.1133">
+        <minTTC time="26530.50" position="-6.383164,53.359542" type="2" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26459.50" end="26555.50" ego="N4-W2.1912" foe="N4-W2.1913">
+        <minTTC time="26546.00" position="-6.375013,53.326056" type="3" value="0.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26459.50" end="26555.50" ego="N4-W2.1913" foe="N4-W2.1912">
+        <minTTC time="26546.00" position="-6.375013,53.326056" type="2" value="0.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26542.00" end="26556.50" ego="NRA_000000020047_Eastbound-2.1987" foe="N4-W2.1912">
+        <minTTC time="26542.50" position="-6.375016,53.326058" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26560.50" end="26569.50" ego="NRA_000000001070_Eastbound-2.2829" foe="NRA_000000001070_Eastbound-3.2824">
+        <minTTC time="26561.50" position="-6.385086,53.314538" type="2" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26571.50" end="26587.50" ego="NRA_000000001508_Southbound-3.2275" foe="NRA_000000001508_Southbound-1.2651">
+        <minTTC time="26577.00" position="-6.383244,53.359439" type="2" value="1.27"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26416.50" end="26587.50" ego="NRA_000000001070_Eastbound-4.1780" foe="NRA_000000001070_Eastbound-2.2782">
+        <minTTC time="26485.00" position="-6.380460,53.315592" type="2" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26542.00" end="26556.50" ego="N4-W2.1912" foe="NRA_000000020047_Eastbound-2.1987">
+        <minTTC time="26542.50" position="-6.375016,53.326058" type="2" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26414.50" end="26589.00" ego="NRA_000000001070_Eastbound-4.1768" foe="NRA_000000001070_Eastbound-4.1762">
+        <minTTC time="26470.00" position="-6.379539,53.315802" type="2" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26167.50" end="26591.00" ego="NRA_000000020047_Eastbound-1.3148" foe="NRA_000000020047_Eastbound-Bus-Lane.98">
+        <minTTC time="26402.50" position="-6.403952,53.357277" type="2" value="1.09"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26167.50" end="26591.00" ego="NRA_000000020047_Eastbound-Bus-Lane.98" foe="NRA_000000020047_Eastbound-1.3148">
+        <minTTC time="26402.50" position="-6.403952,53.357277" type="3" value="1.09"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26414.50" end="26591.00" ego="NRA_000000001070_Eastbound-4.1762" foe="NRA_000000001070_Eastbound-4.1768">
+        <minTTC time="26470.00" position="-6.379539,53.315802" type="3" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26571.50" end="26603.00" ego="NRA_000000001508_Southbound-1.2651" foe="NRA_000000001508_Southbound-3.2275">
+        <minTTC time="26577.00" position="-6.383244,53.359439" type="3" value="1.27"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26543.50" end="26604.00" ego="NRA_000000020047_Eastbound-1.3115" foe="NRA_000000020047_Eastbound-1.3252">
+        <minTTC time="26553.00" position="-6.390534,53.356252" type="2" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26543.50" end="26604.00" ego="NRA_000000020047_Eastbound-1.3252" foe="NRA_000000020047_Eastbound-1.3115">
+        <minTTC time="26553.00" position="-6.390534,53.356252" type="3" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26587.50" end="26605.50" ego="NRA_000000020047_Eastbound-2.1987" foe="N4-W2.1913">
+        <minTTC time="26601.50" position="-6.369342,53.320777" type="3" value="0.83"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26587.50" end="26605.50" ego="N4-W2.1913" foe="NRA_000000020047_Eastbound-2.1987">
+        <minTTC time="26601.50" position="-6.369342,53.320777" type="2" value="0.83"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26416.50" end="26587.50" ego="NRA_000000001070_Eastbound-2.2782" foe="NRA_000000001070_Eastbound-4.1780">
+        <minTTC time="26485.00" position="-6.380460,53.315592" type="3" value="0.91"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26571.50" end="26611.50" ego="NRA_000000001508_Southbound-3.2275" foe="NRA_000000001508_Southbound-4.3019">
+        <minTTC time="26598.50" position="-6.383508,53.358169" type="2" value="0.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26571.50" end="26611.50" ego="NRA_000000001508_Southbound-4.3019" foe="NRA_000000001508_Southbound-3.2275">
+        <minTTC time="26598.50" position="-6.383508,53.358169" type="3" value="0.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26560.50" end="26569.50" ego="NRA_000000001070_Eastbound-3.2824" foe="NRA_000000001070_Eastbound-2.2829">
+        <minTTC time="26561.50" position="-6.385086,53.314538" type="3" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26613.50" end="26623.00" ego="NRA_000000020047_Eastbound-3.2509" foe="NRA_000000020047_Eastbound-1.3278">
+        <minTTC time="26614.00" position="-6.384643,53.353993" type="2" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26184.50" end="26623.00" ego="NRA_000000020047_Eastbound-1.3123" foe="NRA_000000020047_Eastbound-2.1980">
+        <minTTC time="26499.50" position="-6.393844,53.355848" type="2" value="0.86"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26613.50" end="26623.00" ego="NRA_000000020047_Eastbound-1.3278" foe="NRA_000000020047_Eastbound-3.2509">
+        <minTTC time="26614.00" position="-6.384643,53.353993" type="3" value="1.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26614.50" end="26623.00" ego="NRA_000000001509_Northbound-off-slip-1.1083" foe="NRA_000000001509_Northbound-3.1105">
+        <minTTC time="26617.50" position="-6.385217,53.352743" type="3" value="0.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26184.50" end="26624.00" ego="NRA_000000020047_Eastbound-2.1980" foe="NRA_000000020047_Eastbound-1.3123">
+        <minTTC time="26499.50" position="-6.393844,53.355848" type="3" value="0.86"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26614.50" end="26623.50" ego="NRA_000000001509_Northbound-3.1105" foe="NRA_000000001509_Northbound-off-slip-1.1083">
+        <minTTC time="26617.50" position="-6.385217,53.352743" type="2" value="0.45"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26381.00" end="26630.50" ego="NRA_000000020047_Eastbound-1.2992" foe="NRA_000000020047_Eastbound-1.3096">
+        <minTTC time="26541.50" position="-6.376249,53.327202" type="2" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26381.00" end="26630.50" ego="NRA_000000020047_Eastbound-1.3096" foe="NRA_000000020047_Eastbound-1.2992">
+        <minTTC time="26541.50" position="-6.376249,53.327202" type="3" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26621.50" end="26630.50" ego="NRA_000000001070_Eastbound-4.1747" foe="N7-W3.1989">
+        <minTTC time="26625.00" position="-6.373923,53.324571" type="3" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26621.50" end="26630.50" ego="N7-W3.1989" foe="NRA_000000001070_Eastbound-4.1747">
+        <minTTC time="26625.00" position="-6.373923,53.324571" type="2" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26626.50" end="26637.50" ego="NRA_000000001070_Eastbound-2.2703" foe="NRA_000000001509_Northbound-off-slip-1.1085">
+        <minTTC time="26631.00" position="-6.385267,53.352737" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26626.50" end="26637.50" ego="NRA_000000001509_Northbound-off-slip-1.1085" foe="NRA_000000001070_Eastbound-2.2703">
+        <minTTC time="26631.00" position="-6.385267,53.352737" type="2" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26272.50" end="26639.50" ego="NRA_000000001508_Southbound-3.2261" foe="NRA_000000001508_Southbound-3.2273">
+        <minTTC time="26291.00" position="-6.373117,53.373195" type="3" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26272.50" end="26639.50" ego="NRA_000000001508_Southbound-3.2273" foe="NRA_000000001508_Southbound-3.2261">
+        <minTTC time="26291.00" position="-6.373117,53.373195" type="2" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26489.00" end="26642.50" ego="NRA_000000001508_Southbound-2.1146" foe="NRA_000000001508_Southbound-3.2006">
+        <minTTC time="26612.50" position="-6.383139,53.359627" type="2" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26489.00" end="26642.50" ego="NRA_000000001508_Southbound-3.2006" foe="NRA_000000001508_Southbound-2.1146">
+        <minTTC time="26612.50" position="-6.383139,53.359627" type="3" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26582.00" end="26643.50" ego="NRA_000000020047_Eastbound-3.2463" foe="NRA_000000020047_Eastbound-1.3226">
+        <minTTC time="26591.50" position="-6.393109,53.355912" type="3" value="0.85"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26582.00" end="26645.50" ego="NRA_000000020047_Eastbound-1.3226" foe="NRA_000000020047_Eastbound-3.2463">
+        <minTTC time="26591.50" position="-6.393109,53.355912" type="2" value="0.85"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26602.00" end="26649.50" ego="NRA_000000020047_Eastbound-1.3258" foe="NRA_000000020047_Eastbound-1.3265">
+        <minTTC time="26619.00" position="-6.384669,53.353752" type="2" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26602.00" end="26649.50" ego="NRA_000000020047_Eastbound-1.3265" foe="NRA_000000020047_Eastbound-1.3258">
+        <minTTC time="26619.00" position="-6.384669,53.353752" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26582.00" end="26654.00" ego="NRA_000000020047_Eastbound-1.3148" foe="NRA_000000020047_Eastbound-1.3231">
+        <minTTC time="26599.00" position="-6.393561,53.355870" type="2" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26582.00" end="26653.50" ego="NRA_000000020047_Eastbound-1.3231" foe="NRA_000000020047_Eastbound-1.3148">
+        <minTTC time="26599.00" position="-6.393561,53.355870" type="3" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25849.50" end="26675.50" ego="NRA_000000001508_Southbound-1.2490" foe="NRA_000000001508_Southbound-3.2017">
+        <minTTC time="25881.00" position="-6.378594,53.369143" type="2" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25849.50" end="26675.50" ego="NRA_000000001508_Southbound-3.2017" foe="NRA_000000001508_Southbound-1.2490">
+        <minTTC time="25881.00" position="-6.378594,53.369143" type="3" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26656.50" end="26690.50" ego="NRA_000000001070_Eastbound-2.2845" foe="NRA_000000001070_Eastbound-3.2836">
+        <minTTC time="26663.00" position="-6.377146,53.316308" type="3" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26656.50" end="26690.50" ego="NRA_000000001070_Eastbound-3.2836" foe="NRA_000000001070_Eastbound-2.2845">
+        <minTTC time="26663.00" position="-6.377146,53.316308" type="2" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26474.50" end="26695.50" ego="NRA_000000001070_Eastbound-4.1802" foe="NRA_000000001070_Eastbound-3.2804">
+        <minTTC time="26674.00" position="-6.378116,53.316110" type="2" value="1.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26465.00" end="26696.50" ego="NRA_000000001070_Eastbound-3.2801" foe="NRA_000000001070_Eastbound-2.2805">
+        <minTTC time="26674.00" position="-6.377771,53.316201" type="2" value="0.87"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26474.50" end="26696.50" ego="NRA_000000001070_Eastbound-3.2804" foe="NRA_000000001070_Eastbound-4.1802">
+        <minTTC time="26674.00" position="-6.378116,53.316110" type="3" value="1.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26690.00" end="26700.00" ego="NRA_000000001070_Eastbound-4.1849" foe="NRA_000000001070_Eastbound-4.1908">
+        <minTTC time="26690.50" position="-6.378265,53.316016" type="3" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26690.00" end="26700.00" ego="NRA_000000001070_Eastbound-4.1908" foe="NRA_000000001070_Eastbound-4.1849">
+        <minTTC time="26690.50" position="-6.378265,53.316016" type="2" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25976.50" end="26710.00" ego="NRA_000000001508_Southbound-2.1176" foe="NRA_000000001508_Southbound-3.2067">
+        <minTTC time="26412.00" position="-6.381885,53.364147" type="3" value="1.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="25976.50" end="26710.00" ego="NRA_000000001508_Southbound-3.2067" foe="NRA_000000001508_Southbound-2.1176">
+        <minTTC time="26412.00" position="-6.381885,53.364147" type="2" value="1.17"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26465.00" end="26696.50" ego="NRA_000000001070_Eastbound-2.2805" foe="NRA_000000001070_Eastbound-3.2801">
+        <minTTC time="26674.00" position="-6.377771,53.316201" type="3" value="0.87"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26592.00" end="26721.00" ego="NRA_000000020047_Eastbound-2.2067" foe="NRA_000000020047_Eastbound-2.2110">
+        <minTTC time="26705.00" position="-6.391465,53.356142" type="2" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26592.00" end="26721.00" ego="NRA_000000020047_Eastbound-2.2110" foe="NRA_000000020047_Eastbound-2.2067">
+        <minTTC time="26705.00" position="-6.391465,53.356142" type="3" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26661.00" end="26725.00" ego="NRA_000000001509_Northbound-3.1223" foe="NRA_000000001509_Northbound-3.1213">
+        <minTTC time="26713.00" position="-6.365883,53.315231" type="2" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26661.00" end="26726.50" ego="NRA_000000001509_Northbound-3.1213" foe="NRA_000000001509_Northbound-3.1223">
+        <minTTC time="26713.00" position="-6.365883,53.315231" type="3" value="1.20"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26557.00" end="26732.50" ego="NRA_000000020047_Eastbound-3.2538" foe="NRA_000000020047_Eastbound-2.2118">
+        <minTTC time="26679.00" position="-6.398345,53.355986" type="2" value="0.96"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26644.50" end="26736.00" ego="N7-W2.2010" foe="N7-W2.2012">
+        <minTTC time="26719.00" position="-6.364470,53.314495" type="3" value="0.98"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26644.50" end="26736.00" ego="N7-W2.2012" foe="N7-W2.2010">
+        <minTTC time="26719.00" position="-6.364470,53.314495" type="2" value="0.98"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26557.00" end="26732.50" ego="NRA_000000020047_Eastbound-2.2118" foe="NRA_000000020047_Eastbound-3.2538">
+        <minTTC time="26679.00" position="-6.398345,53.355986" type="3" value="0.96"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26659.00" end="26746.50" ego="NRA_000000001508_Southbound-4.3173" foe="NRA_000000001508_Southbound-4.3176">
+        <minTTC time="26692.50" position="-6.382458,53.362257" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26659.00" end="26746.50" ego="NRA_000000001508_Southbound-4.3176" foe="NRA_000000001508_Southbound-4.3173">
+        <minTTC time="26692.50" position="-6.382458,53.362257" type="2" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26731.50" end="26751.00" ego="NRA_000000020047_Eastbound-3.2538" foe="NRA_000000020047_Eastbound-2.2117">
+        <minTTC time="26736.00" position="-6.397416,53.355834" type="2" value="0.78"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26066.00" end="26752.50" ego="NRA_000000001508_Southbound-3.2131" foe="NRA_000000001508_Southbound-3.2126">
+        <minTTC time="26175.50" position="-6.377251,53.370058" type="2" value="1.19"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26421.00" end="26756.00" ego="NRA_000000001508_Southbound-1.2706" foe="NRA_000000001508_Southbound-3.2351">
+        <minTTC time="26423.00" position="-6.369152,53.376978" type="3" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26421.00" end="26756.00" ego="NRA_000000001508_Southbound-3.2351" foe="NRA_000000001508_Southbound-1.2706">
+        <minTTC time="26423.00" position="-6.369152,53.376978" type="2" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26066.00" end="26752.50" ego="NRA_000000001508_Southbound-3.2126" foe="NRA_000000001508_Southbound-3.2131">
+        <minTTC time="26175.50" position="-6.377251,53.370058" type="3" value="1.19"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26671.00" end="26763.50" ego="NRA_000000020047_Eastbound-3.2573" foe="NRA_000000020047_Eastbound-1.3340">
+        <minTTC time="26736.00" position="-6.399204,53.356127" type="2" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26671.00" end="26763.50" ego="NRA_000000020047_Eastbound-1.3340" foe="NRA_000000020047_Eastbound-3.2573">
+        <minTTC time="26736.00" position="-6.399204,53.356127" type="3" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26520.00" end="26776.50" ego="NRA_000000001070_Eastbound-3.2821" foe="NRA_000000001070_Eastbound-4.1817">
+        <minTTC time="26731.00" position="-6.379474,53.315817" type="2" value="1.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26520.00" end="26777.00" ego="NRA_000000001070_Eastbound-4.1817" foe="NRA_000000001070_Eastbound-3.2821">
+        <minTTC time="26731.00" position="-6.379474,53.315817" type="3" value="1.28"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26719.00" end="26783.00" ego="NRA_000000001070_Eastbound-1.238" foe="NRA_000000001070_Eastbound-3.2842">
+        <minTTC time="26751.50" position="-6.367956,53.320048" type="2" value="0.73"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26729.50" end="26776.00" ego="NRA_000000001070_Eastbound-1.238" foe="NRA_000000001070_Eastbound-2.2805">
+        <minTTC time="26752.50" position="-6.367891,53.320017" type="3" value="0.85"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26719.00" end="26783.00" ego="NRA_000000001070_Eastbound-3.2842" foe="NRA_000000001070_Eastbound-1.238">
+        <minTTC time="26751.50" position="-6.367956,53.320048" type="3" value="0.73"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26723.50" end="26783.50" ego="NRA_000000001070_Eastbound-2.2805" foe="NRA_000000001070_Eastbound-3.2801">
+        <minTTC time="26753.50" position="-6.367823,53.319979" type="3" value="0.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26729.50" end="26776.00" ego="NRA_000000001070_Eastbound-2.2805" foe="NRA_000000001070_Eastbound-1.238">
+        <minTTC time="26752.50" position="-6.367891,53.320017" type="2" value="0.85"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26723.50" end="26783.50" ego="NRA_000000001070_Eastbound-3.2801" foe="NRA_000000001070_Eastbound-2.2805">
+        <minTTC time="26753.50" position="-6.367823,53.319979" type="2" value="0.42"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26767.00" end="26787.50" ego="NRA_000000001070_Eastbound-2.2894" foe="NRA_000000001070_Eastbound-2.2895">
+        <minTTC time="26778.50" position="-6.376643,53.316419" type="3" value="0.51"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26767.00" end="26787.50" ego="NRA_000000001070_Eastbound-2.2895" foe="NRA_000000001070_Eastbound-2.2894">
+        <minTTC time="26778.50" position="-6.376643,53.316419" type="2" value="0.51"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26752.00" end="26796.50" ego="NRA_000000020047_Eastbound-3.2538" foe="NRA_000000020047_Eastbound-2.2117">
+        <minTTC time="26780.50" position="-6.391339,53.356130" type="2" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26731.50" end="26796.50" ego="NRA_000000020047_Eastbound-2.2117" foe="NRA_000000020047_Eastbound-3.2538">
+        <minTTC time="26736.00" position="-6.397416,53.355834" type="3" value="0.78"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26782.00" end="26805.00" ego="NRA_000000001070_Eastbound-4.1911" foe="NRA_000000001070_Eastbound-3.2844">
+        <minTTC time="26783.50" position="-6.384613,53.314645" type="3" value="1.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26782.00" end="26805.00" ego="NRA_000000001070_Eastbound-3.2844" foe="NRA_000000001070_Eastbound-4.1911">
+        <minTTC time="26783.50" position="-6.384613,53.314645" type="2" value="1.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26802.00" end="26809.50" ego="NRA_000000020047_Eastbound-3.2538" foe="NRA_000000020047_Eastbound-2.2117">
+        <minTTC time="26804.50" position="-6.389787,53.356398" type="3" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26802.00" end="26809.50" ego="NRA_000000020047_Eastbound-2.2117" foe="NRA_000000020047_Eastbound-3.2538">
+        <minTTC time="26804.50" position="-6.389787,53.356398" type="2" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26726.50" end="26817.00" ego="NRA_000000020047_Eastbound-1.3350" foe="NRA_000000020047_Eastbound-1.3359">
+        <minTTC time="26743.00" position="-6.399523,53.356195" type="3" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26726.50" end="26817.00" ego="NRA_000000020047_Eastbound-1.3359" foe="NRA_000000020047_Eastbound-1.3350">
+        <minTTC time="26743.00" position="-6.399523,53.356195" type="2" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26766.50" end="26820.00" ego="NRA_000000020047_Eastbound-3.2573" foe="NRA_000000020047_Eastbound-2.2145">
+        <minTTC time="26798.00" position="-6.392085,53.356032" type="2" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26766.50" end="26821.50" ego="NRA_000000020047_Eastbound-2.2145" foe="NRA_000000020047_Eastbound-3.2573">
+        <minTTC time="26798.00" position="-6.392085,53.356032" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26813.50" end="26829.00" ego="N7-W3.2060" foe="N7-W2.2040">
+        <minTTC time="26818.50" position="-6.364264,53.314293" type="2" value="1.10"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26813.50" end="26829.00" ego="N7-W2.2040" foe="N7-W3.2060">
+        <minTTC time="26818.50" position="-6.364264,53.314293" type="3" value="1.10"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26749.00" end="26829.50" ego="NRA_000000020047_Eastbound-3.2645" foe="NRA_000000020047_Eastbound-3.2650">
+        <minTTC time="26764.50" position="-6.400545,53.356431" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26749.00" end="26829.50" ego="NRA_000000020047_Eastbound-3.2650" foe="NRA_000000020047_Eastbound-3.2645">
+        <minTTC time="26764.50" position="-6.400545,53.356431" type="2" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26788.00" end="26830.00" ego="NRA_000000020047_Eastbound-1.3444" foe="NRA_000000020047_Eastbound-2.2234">
+        <minTTC time="26793.00" position="-6.401903,53.356747" type="2" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26632.50" end="26833.00" ego="NRA_000000020047_Eastbound-2.2163" foe="NRA_000000020047_Eastbound-2.2164">
+        <minTTC time="26637.50" position="-6.408532,53.358438" type="3" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26632.50" end="26833.00" ego="NRA_000000020047_Eastbound-2.2164" foe="NRA_000000020047_Eastbound-2.2163">
+        <minTTC time="26637.50" position="-6.408532,53.358438" type="2" value="1.25"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26795.50" end="26834.00" ego="NRA_000000020047_Eastbound-1.3450" foe="NRA_000000020047_Eastbound-1.3444">
+        <minTTC time="26797.00" position="-6.401986,53.356767" type="2" value="0.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26800.50" end="26835.50" ego="NRA_000000020047_Eastbound-3.2650" foe="NRA_000000020047_Eastbound-2.2167">
+        <minTTC time="26803.50" position="-6.400237,53.356391" type="2" value="0.52"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26788.00" end="26830.00" ego="NRA_000000020047_Eastbound-2.2234" foe="NRA_000000020047_Eastbound-1.3444">
+        <minTTC time="26793.00" position="-6.401903,53.356747" type="3" value="1.33"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26796.00" end="26840.50" ego="NRA_000000020047_Eastbound-2.2234" foe="NRA_000000020047_Eastbound-1.3450">
+        <minTTC time="26796.50" position="-6.401895,53.356746" type="3" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26796.00" end="26840.50" ego="NRA_000000020047_Eastbound-1.3450" foe="NRA_000000020047_Eastbound-2.2234">
+        <minTTC time="26796.50" position="-6.401895,53.356746" type="2" value="1.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26796.00" end="26841.50" ego="N7-W2.2046" foe="N7-W1.115">
+        <minTTC time="26831.00" position="-6.364290,53.314373" type="2" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26796.00" end="26841.50" ego="N7-W1.115" foe="N7-W2.2046">
+        <minTTC time="26831.00" position="-6.364290,53.314373" type="3" value="1.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26845.00" end="26850.00" ego="NRA_000000001508_Southbound-3.2396" foe="NRA_000000001508_Southbound-4.3199">
+        <minTTC time="26849.00" position="-6.383433,53.358086" type="2" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26800.50" end="26835.50" ego="NRA_000000020047_Eastbound-2.2167" foe="NRA_000000020047_Eastbound-3.2650">
+        <minTTC time="26803.50" position="-6.400237,53.356391" type="3" value="0.52"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26837.50" end="26853.50" ego="NRA_000000001070_Eastbound-3.2821" foe="NRA_000000001070_Eastbound-2.2894">
+        <minTTC time="26841.50" position="-6.367920,53.320033" type="3" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26663.50" end="26856.50" ego="NRA_000000020047_Eastbound-3.2602" foe="NRA_000000020047_Eastbound-2.2176">
+        <minTTC time="26724.00" position="-6.407150,53.358096" type="2" value="1.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26822.00" end="26856.50" ego="NRA_000000001070_Eastbound-2.2894" foe="NRA_000000001070_Eastbound-2.2895">
+        <minTTC time="26843.50" position="-6.367896,53.320019" type="3" value="0.78"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26837.50" end="26853.50" ego="NRA_000000001070_Eastbound-2.2894" foe="NRA_000000001070_Eastbound-3.2821">
+        <minTTC time="26841.50" position="-6.367920,53.320033" type="2" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26822.00" end="26856.50" ego="NRA_000000001070_Eastbound-2.2895" foe="NRA_000000001070_Eastbound-2.2894">
+        <minTTC time="26843.50" position="-6.367896,53.320019" type="2" value="0.78"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26847.00" end="26857.00" ego="NRA_000000001070_Eastbound-2.2766" foe="NRA_000000001509_Northbound-off-slip-1.1159">
+        <minTTC time="26850.00" position="-6.385344,53.352562" type="3" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26847.00" end="26857.00" ego="NRA_000000001509_Northbound-off-slip-1.1159" foe="NRA_000000001070_Eastbound-2.2766">
+        <minTTC time="26850.00" position="-6.385344,53.352562" type="2" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26666.00" end="26859.00" ego="NRA_000000001509_Northbound-off-slip-1.1170" foe="NRA_000000001509_Northbound-off-slip-2.674">
+        <minTTC time="26833.00" position="-6.364322,53.313755" type="3" value="1.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26666.00" end="26859.00" ego="NRA_000000001509_Northbound-off-slip-2.674" foe="NRA_000000001509_Northbound-off-slip-1.1170">
+        <minTTC time="26833.00" position="-6.364322,53.313755" type="2" value="1.18"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26661.00" end="26861.50" ego="NRA_000000020047_Eastbound-2.2176" foe="NRA_000000020047_Eastbound-2.2172">
+        <minTTC time="26826.50" position="-6.406942,53.358044" type="2" value="0.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26663.50" end="26856.50" ego="NRA_000000020047_Eastbound-2.2176" foe="NRA_000000020047_Eastbound-3.2602">
+        <minTTC time="26724.00" position="-6.407150,53.358096" type="3" value="1.14"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26593.00" end="26862.00" ego="NRA_000000020047_Eastbound-3.2370" foe="NRA_000000020047_Eastbound-2.1979">
+        <minTTC time="26830.00" position="-6.375485,53.326459" type="3" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26593.00" end="26862.00" ego="NRA_000000020047_Eastbound-2.1979" foe="NRA_000000020047_Eastbound-3.2370">
+        <minTTC time="26830.00" position="-6.375485,53.326459" type="2" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26716.50" end="26867.50" ego="NRA_000000001509_Northbound-2.2076" foe="NRA_000000001509_Northbound-3.1242">
+        <minTTC time="26792.50" position="-6.365789,53.315141" type="3" value="0.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26716.50" end="26867.50" ego="NRA_000000001509_Northbound-3.1242" foe="NRA_000000001509_Northbound-2.2076">
+        <minTTC time="26792.50" position="-6.365789,53.315141" type="2" value="0.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26840.00" end="26869.00" ego="NRA_000000020047_Eastbound-1.3359" foe="NRA_000000020047_Eastbound-1.3350">
+        <minTTC time="26846.00" position="-6.393614,53.355865" type="2" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26845.00" end="26850.50" ego="NRA_000000001508_Southbound-4.3199" foe="NRA_000000001508_Southbound-3.2396">
+        <minTTC time="26849.00" position="-6.383433,53.358086" type="3" value="0.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26780.50" end="26880.50" ego="NRA_000000020047_Eastbound-3.2663" foe="NRA_000000020047_Eastbound-2.2218">
+        <minTTC time="26784.50" position="-6.401588,53.356703" type="2" value="1.10"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26780.50" end="26880.50" ego="NRA_000000020047_Eastbound-2.2218" foe="NRA_000000020047_Eastbound-3.2663">
+        <minTTC time="26784.50" position="-6.401588,53.356703" type="3" value="1.10"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26795.50" end="26834.00" ego="NRA_000000020047_Eastbound-1.3444" foe="NRA_000000020047_Eastbound-1.3450">
+        <minTTC time="26797.00" position="-6.401986,53.356767" type="3" value="0.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26840.00" end="26877.00" ego="NRA_000000001070_Eastbound-4.1904" foe="NRA_000000001070_Eastbound-4.1911">
+        <minTTC time="26850.00" position="-6.378892,53.315888" type="3" value="0.72"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26840.00" end="26877.00" ego="NRA_000000001070_Eastbound-4.1911" foe="NRA_000000001070_Eastbound-4.1904">
+        <minTTC time="26850.00" position="-6.378892,53.315888" type="2" value="0.72"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26803.00" end="26887.50" ego="NRA_000000001509_Northbound-off-slip-2.696" foe="NRA_000000001509_Northbound-3.1288">
+        <minTTC time="26857.00" position="-6.363604,53.313150" type="3" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26803.00" end="26887.50" ego="NRA_000000001509_Northbound-3.1288" foe="NRA_000000001509_Northbound-off-slip-2.696">
+        <minTTC time="26857.00" position="-6.363604,53.313150" type="2" value="1.13"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26840.00" end="26869.00" ego="NRA_000000020047_Eastbound-1.3350" foe="NRA_000000020047_Eastbound-1.3359">
+        <minTTC time="26846.00" position="-6.393614,53.355865" type="3" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26612.00" end="26894.50" ego="NRA_000000020047_Eastbound-2.2061" foe="NRA_000000020047_Eastbound-1.3236">
+        <minTTC time="26881.50" position="-6.375100,53.326085" type="2" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26612.00" end="26894.50" ego="NRA_000000020047_Eastbound-1.3236" foe="NRA_000000020047_Eastbound-2.2061">
+        <minTTC time="26881.50" position="-6.375100,53.326085" type="3" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26843.50" end="26895.50" ego="NRA_000000020047_Eastbound-1.3470" foe="NRA_000000020047_Eastbound-2.2164">
+        <minTTC time="26852.50" position="-6.402646,53.356958" type="3" value="1.03"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26879.50" end="26898.50" ego="NRA_000000020047_Eastbound-3.2663" foe="NRA_000000020047_Eastbound-1.3403">
+        <minTTC time="26883.50" position="-6.394498,53.355803" type="2" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26879.50" end="26898.50" ego="NRA_000000020047_Eastbound-1.3403" foe="NRA_000000020047_Eastbound-3.2663">
+        <minTTC time="26883.50" position="-6.394498,53.355803" type="3" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26400.50" end="26908.00" ego="NRA_000000020047_Eastbound-2.2001" foe="NRA_000000020047_Eastbound-1.3219">
+        <minTTC time="26402.50" position="-6.403837,53.357279" type="2" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26836.50" end="26908.00" ego="NRA_000000020047_Eastbound-2.2154" foe="NRA_000000020047_Eastbound-2.2175">
+        <minTTC time="26838.50" position="-6.405570,53.357674" type="3" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26400.50" end="26908.00" ego="NRA_000000020047_Eastbound-1.3219" foe="NRA_000000020047_Eastbound-2.2001">
+        <minTTC time="26402.50" position="-6.403837,53.357279" type="3" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26869.00" end="26888.00" ego="NRA_000000020047_Eastbound-1.3352" foe="NRA_000000020047_Eastbound-1.3362">
+        <minTTC time="26874.00" position="-6.394177,53.355825" type="3" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26888.00" end="26917.00" ego="NRA_000000001070_Eastbound-2.2894" foe="NRA_000000001070_Eastbound-3.2888">
+        <minTTC time="26888.00" position="-6.364760,53.314780" type="2" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26888.00" end="26917.00" ego="NRA_000000001070_Eastbound-3.2888" foe="NRA_000000001070_Eastbound-2.2894">
+        <minTTC time="26888.00" position="-6.364760,53.314780" type="3" value="1.49"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26836.50" end="26908.00" ego="NRA_000000020047_Eastbound-2.2175" foe="NRA_000000020047_Eastbound-2.2154">
+        <minTTC time="26838.50" position="-6.405570,53.357674" type="2" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26930.00" end="26938.00" ego="NRA_000000001509_Northbound-3.1255" foe="NRA_000000001509_Northbound-1.1342">
+        <minTTC time="26933.50" position="-6.385219,53.352734" type="3" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26843.50" end="26895.50" ego="NRA_000000020047_Eastbound-2.2164" foe="NRA_000000020047_Eastbound-1.3470">
+        <minTTC time="26852.50" position="-6.402646,53.356958" type="2" value="1.03"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26930.00" end="26939.50" ego="NRA_000000001509_Northbound-1.1342" foe="NRA_000000001509_Northbound-3.1255">
+        <minTTC time="26933.50" position="-6.385219,53.352734" type="2" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26629.50" end="26947.00" ego="NRA_000000001508_Southbound-2.1445" foe="NRA_000000001508_Southbound-4.3241">
+        <minTTC time="26631.50" position="-6.367412,53.378602" type="2" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26936.00" end="26944.50" ego="NRA_000000001508_Southbound-2.1445" foe="NRA_000000001508_Southbound-1.2778">
+        <minTTC time="26943.50" position="-6.383430,53.358076" type="2" value="0.85"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26936.00" end="26945.00" ego="NRA_000000001508_Southbound-1.2778" foe="NRA_000000001508_Southbound-2.1445">
+        <minTTC time="26943.50" position="-6.383430,53.358076" type="3" value="0.85"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26629.50" end="26945.00" ego="NRA_000000001508_Southbound-4.3241" foe="NRA_000000001508_Southbound-2.1445">
+        <minTTC time="26631.50" position="-6.367412,53.378602" type="3" value="0.99"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26869.00" end="26888.00" ego="NRA_000000020047_Eastbound-1.3362" foe="NRA_000000020047_Eastbound-1.3352">
+        <minTTC time="26874.00" position="-6.394177,53.355825" type="2" value="1.11"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26767.00" end="26959.00" ego="NRA_000000001070_Eastbound-2.2910" foe="NRA_000000001070_Eastbound-4.1887">
+        <minTTC time="26854.50" position="-6.380467,53.315591" type="3" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26767.00" end="26959.00" ego="NRA_000000001070_Eastbound-4.1887" foe="NRA_000000001070_Eastbound-2.2910">
+        <minTTC time="26854.50" position="-6.380467,53.315591" type="2" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26889.00" end="26963.00" ego="NRA_000000001070_Eastbound-2.2894" foe="NRA_000000001070_Eastbound-2.2895">
+        <minTTC time="26891.50" position="-6.364820,53.314838" type="3" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26889.00" end="26963.00" ego="NRA_000000001070_Eastbound-2.2895" foe="NRA_000000001070_Eastbound-2.2894">
+        <minTTC time="26891.50" position="-6.364820,53.314838" type="2" value="0.59"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26955.00" end="26965.50" ego="N4-W2.2046" foe="N4-W2.2049">
+        <minTTC time="26956.00" position="-6.384826,53.352846" type="3" value="1.37"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26955.00" end="26965.50" ego="N4-W2.2049" foe="N4-W2.2046">
+        <minTTC time="26956.00" position="-6.384826,53.352846" type="2" value="1.37"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26645.50" end="26969.00" ego="N4-W1.1702" foe="NRA_000000020047_Eastbound-3.2483">
+        <minTTC time="26946.00" position="-6.375348,53.326326" type="2" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26951.00" end="26969.50" ego="NRA_000000001070_Eastbound-4.1951" foe="NRA_000000001070_Eastbound-4.1947">
+        <minTTC time="26951.50" position="-6.384973,53.314563" type="2" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26640.50" end="26970.00" ego="NRA_000000001508_Southbound-3.2252" foe="NRA_000000020047_Eastbound-3.2483">
+        <minTTC time="26963.50" position="-6.374809,53.325802" type="3" value="0.81"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26640.50" end="26970.00" ego="NRA_000000020047_Eastbound-3.2483" foe="NRA_000000001508_Southbound-3.2252">
+        <minTTC time="26963.50" position="-6.374809,53.325802" type="2" value="0.81"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26645.50" end="26970.00" ego="NRA_000000020047_Eastbound-3.2483" foe="N4-W1.1702">
+        <minTTC time="26946.00" position="-6.375348,53.326326" type="3" value="0.88"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26955.50" end="26970.00" ego="NRA_000000020047_Eastbound-3.2629" foe="NRA_000000020047_Eastbound-2.2164">
+        <minTTC time="26955.50" position="-6.391644,53.356088" type="3" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26956.00" end="26964.50" ego="NRA_000000020047_Eastbound-2.2164" foe="NRA_000000020047_Eastbound-3.2629">
+        <minTTC time="26956.00" position="-6.391642,53.356089" type="2" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26646.50" end="26978.00" ego="NRA_000000001508_Southbound-3.2252" foe="NRA_000000020047_Eastbound-1.3139">
+        <minTTC time="26931.00" position="-6.375473,53.326448" type="2" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26646.50" end="26978.50" ego="NRA_000000020047_Eastbound-1.3139" foe="NRA_000000001508_Southbound-3.2252">
+        <minTTC time="26931.00" position="-6.375473,53.326448" type="3" value="1.47"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26951.00" end="26969.50" ego="NRA_000000001070_Eastbound-4.1947" foe="NRA_000000001070_Eastbound-4.1951">
+        <minTTC time="26951.50" position="-6.384973,53.314563" type="3" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26969.00" end="27012.50" ego="NRA_000000001508_Southbound-1.2896" foe="NRA_000000001508_Southbound-4.3380">
+        <minTTC time="26971.00" position="-6.367839,53.378257" type="2" value="1.27"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26877.50" end="27012.50" ego="NRA_000000001509_Northbound-off-slip-1.1249" foe="NRA_000000001509_Northbound-3.1325">
+        <minTTC time="27002.50" position="-6.363570,53.313115" type="2" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26877.50" end="27013.50" ego="NRA_000000001509_Northbound-3.1325" foe="NRA_000000001509_Northbound-off-slip-1.1249">
+        <minTTC time="27002.50" position="-6.363570,53.313115" type="3" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26686.00" end="27018.00" ego="NRA_000000020047_Eastbound-1.3371" foe="NRA_000000020047_Eastbound-3.2599">
+        <minTTC time="27007.00" position="-6.384104,53.355995" type="3" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26686.00" end="27018.00" ego="NRA_000000020047_Eastbound-3.2599" foe="NRA_000000020047_Eastbound-1.3371">
+        <minTTC time="27007.00" position="-6.384104,53.355995" type="2" value="1.15"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26809.50" end="27019.00" ego="NRA_000000001509_Northbound-3.1293" foe="NRA_000000001509_Northbound-2.2123">
+        <minTTC time="27004.50" position="-6.363557,53.313043" type="3" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27004.50" end="27024.50" ego="N7-W2.2104" foe="NRA_000000001070_Eastbound-2.2863">
+        <minTTC time="27018.50" position="-6.364276,53.314305" type="2" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27018.50" end="27028.50" ego="NRA_000000001509_Northbound-2.2146" foe="N7-W2.2109">
+        <minTTC time="27021.00" position="-6.369926,53.317770" type="2" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27018.50" end="27028.50" ego="N7-W2.2109" foe="NRA_000000001509_Northbound-2.2146">
+        <minTTC time="27021.00" position="-6.369926,53.317770" type="3" value="1.32"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27004.50" end="27024.50" ego="NRA_000000001070_Eastbound-2.2863" foe="N7-W2.2104">
+        <minTTC time="27018.50" position="-6.364276,53.314305" type="3" value="0.89"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27020.00" end="27034.50" ego="NRA_000000020047_Eastbound-2.2278" foe="NRA_000000020047_Eastbound-1.3498">
+        <minTTC time="27022.00" position="-6.408740,53.358489" type="2" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27020.00" end="27034.50" ego="NRA_000000020047_Eastbound-1.3498" foe="NRA_000000020047_Eastbound-2.2278">
+        <minTTC time="27022.00" position="-6.408740,53.358489" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26960.00" end="27044.00" ego="NRA_000000001508_Southbound-4.3222" foe="NRA_000000001508_Southbound-4.3224">
+        <minTTC time="27022.50" position="-6.383299,53.359254" type="2" value="0.64"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26960.00" end="27044.00" ego="NRA_000000001508_Southbound-4.3224" foe="NRA_000000001508_Southbound-4.3222">
+        <minTTC time="27022.50" position="-6.383299,53.359254" type="3" value="0.64"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26738.50" end="27060.00" ego="NRA_000000001508_Southbound-1.2773" foe="NRA_000000001508_Southbound-4.3243">
+        <minTTC time="26792.50" position="-6.370447,53.375799" type="3" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26738.50" end="27060.00" ego="NRA_000000001508_Southbound-4.3243" foe="NRA_000000001508_Southbound-1.2773">
+        <minTTC time="26792.50" position="-6.370447,53.375799" type="2" value="1.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26838.50" end="27074.00" ego="NRA_000000020047_Eastbound-2.2154" foe="NRA_000000020047_Eastbound-1.3358">
+        <minTTC time="27066.00" position="-6.392134,53.356055" type="2" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26994.00" end="27082.00" ego="NRA_000000001509_Northbound-3.1381" foe="NRA_000000001509_Northbound-off-slip-1.1291">
+        <minTTC time="27077.00" position="-6.363588,53.313133" type="3" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26994.00" end="27083.00" ego="NRA_000000001509_Northbound-off-slip-1.1291" foe="NRA_000000001509_Northbound-3.1381">
+        <minTTC time="27077.00" position="-6.363588,53.313133" type="2" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27000.00" end="27088.00" ego="NRA_000000001509_Northbound-3.1291" foe="NRA_000000001509_Northbound-off-slip-1.1249">
+        <minTTC time="27076.50" position="-6.365874,53.315168" type="3" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27078.50" end="27090.00" ego="NRA_000000001070_Eastbound-3.2895" foe="NRA_000000001070_Eastbound-3.2897">
+        <minTTC time="27078.50" position="-6.373822,53.324427" type="3" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27078.50" end="27090.00" ego="NRA_000000001070_Eastbound-3.2897" foe="NRA_000000001070_Eastbound-3.2895">
+        <minTTC time="27078.50" position="-6.373822,53.324427" type="2" value="1.41"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27000.00" end="27088.00" ego="NRA_000000001509_Northbound-off-slip-1.1249" foe="NRA_000000001509_Northbound-3.1291">
+        <minTTC time="27076.50" position="-6.365874,53.315168" type="2" value="0.94"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27086.00" end="27099.50" ego="N7-W3.2170" foe="N7-W3.2171">
+        <minTTC time="27088.50" position="-6.364976,53.319025" type="3" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27086.50" end="27099.50" ego="N7-W3.2171" foe="N7-W3.2170">
+        <minTTC time="27088.50" position="-6.364976,53.319025" type="2" value="1.40"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27085.50" end="27102.50" ego="N7-W3.2164" foe="N7-W3.2167">
+        <minTTC time="27088.00" position="-6.364973,53.319059" type="3" value="0.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27086.00" end="27102.50" ego="N7-W3.2167" foe="N7-W3.2164">
+        <minTTC time="27088.00" position="-6.364973,53.319059" type="2" value="0.31"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26804.50" end="27103.00" ego="NRA_000000001509_Northbound-2.2123" foe="NRA_000000001509_Northbound-3.1295">
+        <minTTC time="27014.50" position="-6.363562,53.313049" type="3" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26809.50" end="27019.00" ego="NRA_000000001509_Northbound-2.2123" foe="NRA_000000001509_Northbound-3.1293">
+        <minTTC time="27004.50" position="-6.363557,53.313043" type="2" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26804.50" end="27103.00" ego="NRA_000000001509_Northbound-3.1295" foe="NRA_000000001509_Northbound-2.2123">
+        <minTTC time="27014.50" position="-6.363562,53.313049" type="2" value="1.21"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27055.00" end="27103.00" ego="N7-W3.2073" foe="NRA_000000001509_Northbound-off-slip-2.695">
+        <minTTC time="27068.50" position="-6.385373,53.352679" type="3" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26937.50" end="27103.50" ego="NRA_000000020047_Eastbound-3.2502" foe="N4-W1.1789">
+        <minTTC time="27094.50" position="-6.375154,53.326193" type="2" value="0.54"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27055.00" end="27104.00" ego="NRA_000000001509_Northbound-off-slip-2.695" foe="N7-W3.2073">
+        <minTTC time="27068.50" position="-6.385373,53.352679" type="2" value="1.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26937.50" end="27103.50" ego="N4-W1.1789" foe="NRA_000000020047_Eastbound-3.2502">
+        <minTTC time="27094.50" position="-6.375154,53.326193" type="3" value="0.54"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26939.00" end="27106.50" ego="N4-W1.1789" foe="NRA_000000001508_Southbound-2.1397">
+        <minTTC time="27093.00" position="-6.375109,53.326149" type="2" value="0.78"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26939.00" end="27110.50" ego="NRA_000000001508_Southbound-2.1397" foe="N4-W1.1789">
+        <minTTC time="27093.00" position="-6.375109,53.326149" type="3" value="0.78"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26791.50" end="27116.50" ego="NRA_000000001508_Southbound-3.2159" foe="NRA_000000001508_Southbound-4.3201">
+        <minTTC time="26969.50" position="-6.382962,53.360380" type="3" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26791.50" end="27116.50" ego="NRA_000000001508_Southbound-4.3201" foe="NRA_000000001508_Southbound-3.2159">
+        <minTTC time="26969.50" position="-6.382962,53.360380" type="2" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26838.50" end="27074.00" ego="NRA_000000020047_Eastbound-1.3358" foe="NRA_000000020047_Eastbound-2.2154">
+        <minTTC time="27066.00" position="-6.392134,53.356055" type="3" value="1.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26993.00" end="27003.00" ego="NRA_000000020047_Eastbound-1.3503" foe="NRA_000000020047_Eastbound-2.2284">
+        <minTTC time="26995.50" position="-6.390189,53.356182" type="3" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26983.00" end="27135.50" ego="NRA_000000001070_Eastbound-2.2970" foe="NRA_000000001070_Eastbound-2.2967">
+        <minTTC time="26986.00" position="-6.384975,53.314563" type="2" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26983.00" end="27137.50" ego="NRA_000000001070_Eastbound-2.2967" foe="NRA_000000001070_Eastbound-2.2970">
+        <minTTC time="26986.00" position="-6.384975,53.314563" type="3" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26813.50" end="27147.00" ego="NRA_000000001508_Southbound-2.1248" foe="NRA_000000001508_Southbound-3.2426">
+        <minTTC time="26936.50" position="-6.382676,53.361303" type="3" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27140.00" end="27155.00" ego="N4-W1.1868" foe="N4-W1.1869">
+        <minTTC time="27145.50" position="-6.384093,53.357817" type="3" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27140.00" end="27155.00" ego="N4-W1.1869" foe="N4-W1.1868">
+        <minTTC time="27145.50" position="-6.384093,53.357817" type="2" value="1.16"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27025.00" end="27157.50" ego="NRA_000000001070_Eastbound-3.2979" foe="NRA_000000001070_Eastbound-3.2975">
+        <minTTC time="27103.50" position="-6.378988,53.315928" type="2" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27147.50" end="27168.50" ego="NRA_000000001070_Eastbound-3.2950" foe="NRA_000000001070_Eastbound-4.1957">
+        <minTTC time="27158.50" position="-6.364503,53.314528" type="2" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27147.50" end="27168.50" ego="NRA_000000001070_Eastbound-4.1957" foe="NRA_000000001070_Eastbound-3.2950">
+        <minTTC time="27158.50" position="-6.364503,53.314528" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27152.00" end="27170.00" ego="NRA_000000020047_Eastbound-2.2237" foe="NRA_000000020047_Eastbound-1.3451">
+        <minTTC time="27155.00" position="-6.390441,53.356266" type="3" value="0.84"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27152.00" end="27170.00" ego="NRA_000000020047_Eastbound-1.3451" foe="NRA_000000020047_Eastbound-2.2237">
+        <minTTC time="27155.00" position="-6.390441,53.356266" type="2" value="0.84"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26813.50" end="27147.00" ego="NRA_000000001508_Southbound-3.2426" foe="NRA_000000001508_Southbound-2.1248">
+        <minTTC time="26936.50" position="-6.382676,53.361303" type="2" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27176.50" end="27195.00" ego="NRA_000000001070_Eastbound-3.2954" foe="NRA_000000001070_Eastbound-4.1963">
+        <minTTC time="27181.50" position="-6.364851,53.314869" type="3" value="1.12"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27176.50" end="27195.00" ego="NRA_000000001070_Eastbound-4.1963" foe="NRA_000000001070_Eastbound-3.2954">
+        <minTTC time="27181.50" position="-6.364851,53.314869" type="2" value="1.12"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26913.50" end="27199.00" ego="NRA_000000001508_Southbound-2.1547" foe="NRA_000000001508_Southbound-3.2603">
+        <minTTC time="27193.50" position="-6.383170,53.359357" type="2" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27025.00" end="27158.50" ego="NRA_000000001070_Eastbound-3.2975" foe="NRA_000000001070_Eastbound-3.2979">
+        <minTTC time="27103.50" position="-6.378988,53.315928" type="3" value="1.30"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26164.00" end="27199.50" ego="NRA_000000001508_Southbound-1.2606" foe="NRA_000000001508_Southbound-2.1269">
+        <minTTC time="26762.50" position="-6.381518,53.365351" type="3" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26164.00" end="27199.50" ego="NRA_000000001508_Southbound-2.1269" foe="NRA_000000001508_Southbound-1.2606">
+        <minTTC time="26762.50" position="-6.381518,53.365351" type="2" value="1.35"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26407.00" end="27199.50" ego="NRA_000000001508_Southbound-2.1364" foe="NRA_000000001508_Southbound-3.2343">
+        <minTTC time="27196.00" position="-6.379687,53.368203" type="3" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26174.00" end="27199.50" ego="NRA_000000001508_Southbound-3.2219" foe="NRA_000000001508_Southbound-4.3056">
+        <minTTC time="27047.00" position="-6.382157,53.363154" type="2" value="1.12"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26407.00" end="27199.50" ego="NRA_000000001508_Southbound-3.2343" foe="NRA_000000001508_Southbound-2.1364">
+        <minTTC time="27196.00" position="-6.379687,53.368203" type="2" value="1.23"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26913.50" end="27199.50" ego="NRA_000000001508_Southbound-3.2603" foe="NRA_000000001508_Southbound-2.1547">
+        <minTTC time="27193.50" position="-6.383170,53.359357" type="3" value="1.50"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27103.00" end="27199.50" ego="NRA_000000001508_Southbound-3.2694" foe="NRA_000000001508_Southbound-4.3428">
+        <minTTC time="27125.50" position="-6.368916,53.377251" type="2" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26174.00" end="27199.50" ego="NRA_000000001508_Southbound-4.3056" foe="NRA_000000001508_Southbound-3.2219">
+        <minTTC time="27047.00" position="-6.382157,53.363154" type="3" value="1.12"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26969.00" end="27012.50" ego="NRA_000000001508_Southbound-4.3380" foe="NRA_000000001508_Southbound-1.2896">
+        <minTTC time="26971.00" position="-6.367839,53.378257" type="3" value="1.27"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27103.00" end="27199.50" ego="NRA_000000001508_Southbound-4.3428" foe="NRA_000000001508_Southbound-3.2694">
+        <minTTC time="27125.50" position="-6.368916,53.377251" type="3" value="1.22"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27187.50" end="27199.50" ego="NRA_000000001509_Northbound-1.1437" foe="NRA_000000001509_Northbound-2.2269">
+        <minTTC time="27189.50" position="-6.357841,53.306770" type="3" value="0.98"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27187.50" end="27199.50" ego="NRA_000000001509_Northbound-2.2269" foe="NRA_000000001509_Northbound-1.1437">
+        <minTTC time="27189.50" position="-6.357841,53.306770" type="2" value="0.98"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27185.00" end="27199.50" ego="NRA_000000020047_Eastbound-1.3469" foe="NRA_000000020047_Eastbound-2.2255">
+        <minTTC time="27196.50" position="-6.390242,53.356297" type="3" value="0.85"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27021.00" end="27199.50" ego="NRA_000000020047_Eastbound-1.3498" foe="NRA_000000020047_Eastbound-2.2279">
+        <minTTC time="27026.00" position="-6.408579,53.358449" type="3" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26914.00" end="27199.50" ego="NRA_000000020047_Eastbound-2.2121" foe="NRA_000000020047_Eastbound-2.2163">
+        <minTTC time="27024.00" position="-6.395475,53.355789" type="3" value="0.81"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26914.00" end="27199.50" ego="NRA_000000020047_Eastbound-2.2163" foe="NRA_000000020047_Eastbound-2.2121">
+        <minTTC time="27024.00" position="-6.395475,53.355789" type="2" value="0.81"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26661.00" end="26861.50" ego="NRA_000000020047_Eastbound-2.2172" foe="NRA_000000020047_Eastbound-2.2176">
+        <minTTC time="26826.50" position="-6.406942,53.358044" type="3" value="0.90"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27185.00" end="27199.50" ego="NRA_000000020047_Eastbound-2.2255" foe="NRA_000000020047_Eastbound-1.3469">
+        <minTTC time="27196.50" position="-6.390242,53.356297" type="2" value="0.85"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="27021.00" end="27199.50" ego="NRA_000000020047_Eastbound-2.2279" foe="NRA_000000020047_Eastbound-1.3498">
+        <minTTC time="27026.00" position="-6.408579,53.358449" type="2" value="1.06"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26993.00" end="27003.00" ego="NRA_000000020047_Eastbound-2.2284" foe="NRA_000000020047_Eastbound-1.3503">
+        <minTTC time="26995.50" position="-6.390189,53.356182" type="2" value="0.95"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26480.50" end="27199.50" ego="NRA_000000020047_Eastbound-3.2499" foe="NRA_000000020047_Eastbound-3.2504">
+        <minTTC time="27053.50" position="-6.397497,53.355900" type="3" value="1.03"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26480.50" end="27199.50" ego="NRA_000000020047_Eastbound-3.2504" foe="NRA_000000020047_Eastbound-3.2499">
+        <minTTC time="27053.50" position="-6.397497,53.355900" type="2" value="1.03"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26654.00" end="27199.50" ego="NRA_000000020047_Eastbound-3.2551" foe="NRA_000000020047_Eastbound-Bus-Lane.111">
+        <minTTC time="26862.50" position="-6.403237,53.357133" type="3" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
+    <conflict begin="26622.00" end="27199.50" ego="NRA_000000020047_Eastbound-Bus-Lane.111" foe="NRA_000000020047_Eastbound-3.2551">
+        <minTTC time="26862.50" position="-6.403237,53.357133" type="2" value="1.48"/>
+        <PET time="NA" position="NA" type="NA" value="NA"/>
+    </conflict>
 </SSMLog>
