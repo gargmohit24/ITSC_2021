@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+	<vType id="CAT4"
+		carFollowModel="IDM"
+		color="blue"
+		lanesCount="4"
+		lcStrategic="1.0"
+		minGap="1"
+		probability="0.0"
+		sigma="0.05"
+		speedDev="0.05"
+		tau="0.6"
+		vClass="truck"
+	/>
+	<vType id="CAT2"
+		carFollowModel="CACC"
+		color="green"
+		lcStrategic="0.5"
+		minGap="1.5"
+		probability="0.7"
+		sigma="0.05"
+		speedDev="0.05"
+		tau="0.6"
+		vClass="truck"
+	/>
+	<vType id="HDT"
+		carFollowModel="IDM"
+		color="red"
+		lcStrategic="0.5"
+		minGap="2.5"
+		probability="0.3"
+		sigma="0.5"
+		speedDev="0.1"
+		tau="1.5"
+		vClass="truck"
+	/>
+	<vType id="CAV4"
+		carFollowModel="IDM"
+		color="blue"
+		lanesCount="4"
+		lcStrategic="1.0"
+		minGap="1"
+		probability="0.0"
+		sigma="0.05"
+		speedDev="0.05"
+		tau="0.6"
+		vClass="passenger"
+	/>
+	<vType id="CAV2"
+		carFollowModel="CACC"
+		color="green"
+		lcStrategic="0.5"
+		minGap="1.5"
+		probability="0.7"
+		sigma="0.05"
+		speedDev="0.05"
+		tau="0.6"
+		vClass="passenger"
+	/>
+	<vType id="HDC"
+		carFollowModel="IDM"
+		color="red"
+		lcStrategic="0.5"
+		minGap="2.5"
+		probability="0.3"
+		sigma="0.5"
+		speedDev="0.1"
+		tau="1.5"
+		vClass="passenger"
+	/>
+
+	<vTypeDistribution id="PKW" vTypes="HDC CAV2 CAV4"/>
+	<vTypeDistribution id="LKW" vTypes="HDT CAT2 CAT4"/>
+
+</additional>
